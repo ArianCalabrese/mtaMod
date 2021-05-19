@@ -1,0 +1,1054 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-10 20:18:36] File 'settings.xml' not present, creating new node.
+[2021-05-10 20:18:36] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-10 20:18:43] Resources: 190 loaded, 0 failed
+[2021-05-10 20:18:43] Starting resources...
+[2021-05-10 20:18:43] Server minclientversion is now 1.5.7-9.19626
+[2021-05-10 20:18:44] Server started and is ready to accept connections!
+[2021-05-10 20:18:44] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-10 20:18:44] Type 'help' for a list of commands.
+[2021-05-10 20:18:45] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20766.0)
+[2021-05-10 20:18:46] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-10 20:33:45] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000004A
+[2021-05-10 20:42:43] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-10 20:42:43] Server stopped!
+[2021-05-10 20:42:44] Stopping resources..........
+[2021-05-10 20:42:44] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-10 20:43:12] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-10 20:43:14] Resources: 191 loaded, 0 failed
+[2021-05-10 20:43:14] Starting resources...
+[2021-05-10 20:43:14] Server minclientversion is now 1.5.7-9.19626
+[2021-05-10 20:43:15] Server started and is ready to accept connections!
+[2021-05-10 20:43:15] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-10 20:43:15] Type 'help' for a list of commands.
+[2021-05-10 20:43:15] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-10 20:43:16] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-10 20:46:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000004A
+[2021-05-10 20:50:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000050
+[2021-05-10 20:52:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000051
+[2021-05-10 20:56:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000053
+[2021-05-10 20:58:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000054
+[2021-05-10 21:01:16] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000056
+[2021-05-10 21:04:47] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-10 21:04:48] Server stopped!
+[2021-05-10 21:04:48] Stopping resources..........
+[2021-05-10 21:04:48] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-11 18:31:44] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-11 18:31:55] Resources: 193 loaded, 0 failed
+[2021-05-11 18:31:55] Starting resources...
+[2021-05-11 18:31:55] Server minclientversion is now 1.5.7-9.19626
+[2021-05-11 18:31:55] Server started and is ready to accept connections!
+[2021-05-11 18:31:55] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-11 18:31:55] Type 'help' for a list of commands.
+[2021-05-11 18:31:56] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-11 18:31:57] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-11 18:32:15] Starting freeroam
+[2021-05-11 18:32:15] startResource: Resource 'freeroam' started
+[2021-05-11 18:32:15] Resource 'editor_test' changed, reloading and starting
+[2021-05-11 18:32:15] Starting editor_test
+[2021-05-11 18:32:15] startResource: Resource 'editor_test' started
+[2021-05-11 18:32:28] Stopping freeroam
+[2021-05-11 18:32:28] Stopping editor_test
+[2021-05-11 19:02:00] Starting freeroam
+[2021-05-11 19:02:00] startResource: Resource 'freeroam' started
+[2021-05-11 19:02:00] Resource 'editor_test' changed, reloading and starting
+[2021-05-11 19:02:00] Starting editor_test
+[2021-05-11 19:02:00] startResource: Resource 'editor_test' started
+[2021-05-11 19:02:47] Stopping freeroam
+[2021-05-11 19:02:47] Stopping editor_test
+[2021-05-11 19:04:57] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000EC
+[2021-05-11 19:05:28] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-11 19:05:28] Server stopped!
+[2021-05-11 19:05:33] Stopping resources..........
+[2021-05-11 19:05:33] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 09:51:19] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 09:51:27] Resources: 196 loaded, 0 failed
+[2021-05-12 09:51:27] Starting resources...
+[2021-05-12 09:51:27] Server minclientversion is now 1.5.7-9.19626
+[2021-05-12 09:51:27] Server started and is ready to accept connections!
+[2021-05-12 09:51:27] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-12 09:51:27] Type 'help' for a list of commands.
+[2021-05-12 09:51:28] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-12 09:51:29] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-12 09:58:15] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-12 09:58:15] Server stopped!
+[2021-05-12 09:58:15] Stopping resources..........
+[2021-05-12 09:58:15] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 09:58:16] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 09:58:17] Resources: 196 loaded, 0 failed
+[2021-05-12 09:58:17] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-12 09:58:18] Server stopped!
+[2021-05-12 09:58:18] Stopping resources...
+[2021-05-12 09:58:18] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 09:58:22] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 09:58:23] Resources: 196 loaded, 0 failed
+[2021-05-12 09:58:23] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-12 09:58:24] Server stopped!
+[2021-05-12 09:58:24] Stopping resources...
+[2021-05-12 09:58:24] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 09:58:28] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 09:58:29] Resources: 196 loaded, 0 failed
+[2021-05-12 09:58:29] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-12 09:58:30] Server stopped!
+[2021-05-12 09:58:30] Stopping resources...
+[2021-05-12 09:58:30] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 09:58:49] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 09:58:50] Resources: 196 loaded, 0 failed
+[2021-05-12 09:58:50] Starting resources...
+[2021-05-12 09:58:50] Server minclientversion is now 1.5.7-9.19626
+[2021-05-12 09:58:51] Server started and is ready to accept connections!
+[2021-05-12 09:58:51] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-12 09:58:51] Type 'help' for a list of commands.
+[2021-05-12 09:58:51] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-12 09:58:52] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-12 10:03:52] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-12 10:04:52] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-12 10:05:52] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-12 10:06:52] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-12 10:07:52] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-12 10:18:48] Starting freeroam
+[2021-05-12 10:18:48] startResource: Resource 'freeroam' started
+[2021-05-12 10:18:48] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 10:18:48] Starting editor_test
+[2021-05-12 10:18:48] startResource: Resource 'editor_test' started
+[2021-05-12 10:18:54] Stopping freeroam
+[2021-05-12 10:18:54] Stopping editor_test
+[2021-05-12 10:18:59] Starting freeroam
+[2021-05-12 10:18:59] startResource: Resource 'freeroam' started
+[2021-05-12 10:18:59] Starting editor_test
+[2021-05-12 10:18:59] startResource: Resource 'editor_test' started
+[2021-05-12 10:19:10] Stopping freeroam
+[2021-05-12 10:19:10] Stopping editor_test
+[2021-05-12 10:23:03] Starting freeroam
+[2021-05-12 10:23:03] startResource: Resource 'freeroam' started
+[2021-05-12 10:23:03] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 10:23:03] Starting editor_test
+[2021-05-12 10:23:03] startResource: Resource 'editor_test' started
+[2021-05-12 10:23:21] Stopping freeroam
+[2021-05-12 10:23:21] Stopping editor_test
+[2021-05-12 10:24:17] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-12 10:24:17] Server stopped!
+[2021-05-12 10:24:17] Stopping resources..........
+[2021-05-12 10:24:17] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 14:17:19] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 14:17:21] Resources: 197 loaded, 0 failed
+[2021-05-12 14:17:21] Starting resources...
+[2021-05-12 14:17:21] Server minclientversion is now 1.5.7-9.19626
+[2021-05-12 14:17:21] Server started and is ready to accept connections!
+[2021-05-12 14:17:21] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-12 14:17:21] Type 'help' for a list of commands.
+[2021-05-12 14:17:22] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-12 14:17:23] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-12 14:19:40] INFO: Cannot perform undo: element does not exist or invalid element
+[2021-05-12 14:19:42] INFO: Cannot perform undo: element does not exist or invalid element
+[2021-05-12 14:19:42] INFO: Cannot perform undo: element does not exist, position does not exist, or invalid element
+[2021-05-12 14:19:44] INFO: Cannot destroy element: element does not exist or invalid element
+[2021-05-12 14:19:50] INFO: Cannot destroy element: element does not exist or invalid element
+[2021-05-12 14:23:25] INFO: Cannot perform undo: element does not exist or invalid element
+[2021-05-12 14:23:31] INFO: Cannot perform undo: element does not exist or invalid element
+[2021-05-12 14:23:32] INFO: Cannot perform undo: element does not exist or invalid element
+[2021-05-12 14:23:39] INFO: Cannot destroy element: element does not exist or invalid element
+[2021-05-12 14:38:16] Starting freeroam
+[2021-05-12 14:38:16] startResource: Resource 'freeroam' started
+[2021-05-12 14:38:16] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:38:16] Starting editor_test
+[2021-05-12 14:38:16] startResource: Resource 'editor_test' started
+[2021-05-12 14:38:27] Stopping freeroam
+[2021-05-12 14:38:27] Stopping editor_test
+[2021-05-12 14:38:47] Starting freeroam
+[2021-05-12 14:38:47] startResource: Resource 'freeroam' started
+[2021-05-12 14:38:47] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:38:47] Starting editor_test
+[2021-05-12 14:38:47] startResource: Resource 'editor_test' started
+[2021-05-12 14:39:20] Stopping freeroam
+[2021-05-12 14:39:20] Stopping editor_test
+[2021-05-12 14:42:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000003D8
+[2021-05-12 14:43:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000003D9
+[2021-05-12 14:43:50] Starting freeroam
+[2021-05-12 14:43:50] startResource: Resource 'freeroam' started
+[2021-05-12 14:43:50] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:43:50] Starting editor_test
+[2021-05-12 14:43:51] startResource: Resource 'editor_test' started
+[2021-05-12 14:44:09] Stopping freeroam
+[2021-05-12 14:44:09] Stopping editor_test
+[2021-05-12 14:51:14] Starting freeroam
+[2021-05-12 14:51:14] startResource: Resource 'freeroam' started
+[2021-05-12 14:51:14] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:51:14] Starting editor_test
+[2021-05-12 14:51:14] startResource: Resource 'editor_test' started
+[2021-05-12 14:51:36] Stopping freeroam
+[2021-05-12 14:51:36] Stopping editor_test
+[2021-05-12 14:54:22] Starting freeroam
+[2021-05-12 14:54:22] startResource: Resource 'freeroam' started
+[2021-05-12 14:54:22] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:54:22] Starting editor_test
+[2021-05-12 14:54:22] startResource: Resource 'editor_test' started
+[2021-05-12 14:54:32] Stopping freeroam
+[2021-05-12 14:54:32] Stopping editor_test
+[2021-05-12 14:55:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000004F2
+[2021-05-12 14:57:45] Starting freeroam
+[2021-05-12 14:57:45] startResource: Resource 'freeroam' started
+[2021-05-12 14:57:45] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 14:57:45] Starting editor_test
+[2021-05-12 14:57:45] startResource: Resource 'editor_test' started
+[2021-05-12 14:58:18] Stopping freeroam
+[2021-05-12 14:58:18] Stopping editor_test
+[2021-05-12 15:00:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000567
+[2021-05-12 15:01:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000569
+[2021-05-12 15:07:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000056B
+[2021-05-12 15:08:26] Starting freeroam
+[2021-05-12 15:08:26] startResource: Resource 'freeroam' started
+[2021-05-12 15:08:26] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 15:08:26] Starting editor_test
+[2021-05-12 15:08:26] startResource: Resource 'editor_test' started
+[2021-05-12 15:08:51] Stopping freeroam
+[2021-05-12 15:08:51] Stopping editor_test
+[2021-05-12 15:21:19] Starting freeroam
+[2021-05-12 15:21:19] startResource: Resource 'freeroam' started
+[2021-05-12 15:21:19] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 15:21:19] Starting editor_test
+[2021-05-12 15:21:19] startResource: Resource 'editor_test' started
+[2021-05-12 15:22:02] Stopping freeroam
+[2021-05-12 15:22:02] Stopping editor_test
+[2021-05-12 15:23:23] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000644
+[2021-05-12 15:25:54] Starting freeroam
+[2021-05-12 15:25:54] startResource: Resource 'freeroam' started
+[2021-05-12 15:25:54] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 15:25:54] Starting editor_test
+[2021-05-12 15:25:54] startResource: Resource 'editor_test' started
+[2021-05-12 15:26:42] Stopping freeroam
+[2021-05-12 15:26:42] Stopping editor_test
+[2021-05-12 15:36:30] Starting freeroam
+[2021-05-12 15:36:30] startResource: Resource 'freeroam' started
+[2021-05-12 15:36:30] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 15:36:30] Starting editor_test
+[2021-05-12 15:36:30] startResource: Resource 'editor_test' started
+[2021-05-12 15:37:25] Stopping freeroam
+[2021-05-12 15:37:25] Stopping editor_test
+[2021-05-12 15:45:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000740
+[2021-05-12 15:49:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000743
+[2021-05-12 15:50:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000744
+[2021-05-12 15:51:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000745
+[2021-05-12 15:52:10] Starting freeroam
+[2021-05-12 15:52:10] startResource: Resource 'freeroam' started
+[2021-05-12 15:52:10] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 15:52:10] Starting editor_test
+[2021-05-12 15:52:10] startResource: Resource 'editor_test' started
+[2021-05-12 15:52:31] Stopping freeroam
+[2021-05-12 15:52:31] Stopping editor_test
+[2021-05-12 15:55:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000007CA
+[2021-05-12 15:56:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000007CA
+[2021-05-12 15:57:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000007CC
+[2021-05-12 15:58:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000007CC
+[2021-05-12 15:59:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000007CC
+[2021-05-12 16:06:26] Starting freeroam
+[2021-05-12 16:06:26] startResource: Resource 'freeroam' started
+[2021-05-12 16:06:26] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:06:26] Starting editor_test
+[2021-05-12 16:06:26] startResource: Resource 'editor_test' started
+[2021-05-12 16:07:10] Stopping freeroam
+[2021-05-12 16:07:10] Stopping editor_test
+[2021-05-12 16:07:55] Starting freeroam
+[2021-05-12 16:07:55] startResource: Resource 'freeroam' started
+[2021-05-12 16:07:55] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:07:55] Starting editor_test
+[2021-05-12 16:07:55] startResource: Resource 'editor_test' started
+[2021-05-12 16:08:21] Stopping freeroam
+[2021-05-12 16:08:21] Stopping editor_test
+[2021-05-12 16:09:56] Starting freeroam
+[2021-05-12 16:09:56] startResource: Resource 'freeroam' started
+[2021-05-12 16:09:56] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:09:56] Starting editor_test
+[2021-05-12 16:09:56] startResource: Resource 'editor_test' started
+[2021-05-12 16:10:03] Stopping freeroam
+[2021-05-12 16:10:03] Stopping editor_test
+[2021-05-12 16:10:18] Starting freeroam
+[2021-05-12 16:10:18] startResource: Resource 'freeroam' started
+[2021-05-12 16:10:18] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:10:18] Starting editor_test
+[2021-05-12 16:10:18] startResource: Resource 'editor_test' started
+[2021-05-12 16:10:38] Stopping freeroam
+[2021-05-12 16:10:38] Stopping editor_test
+[2021-05-12 16:10:43] Starting freeroam
+[2021-05-12 16:10:43] startResource: Resource 'freeroam' started
+[2021-05-12 16:10:43] Starting editor_test
+[2021-05-12 16:10:43] startResource: Resource 'editor_test' started
+[2021-05-12 16:11:08] Stopping freeroam
+[2021-05-12 16:11:08] Stopping editor_test
+[2021-05-12 16:11:52] Starting freeroam
+[2021-05-12 16:11:52] startResource: Resource 'freeroam' started
+[2021-05-12 16:11:52] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:11:52] Starting editor_test
+[2021-05-12 16:11:52] startResource: Resource 'editor_test' started
+[2021-05-12 16:11:56] Stopping freeroam
+[2021-05-12 16:11:56] Stopping editor_test
+[2021-05-12 16:12:01] Notice: There are now 20 open XML files in resource 'editor_main'
+[2021-05-12 16:12:01] Starting freeroam
+[2021-05-12 16:12:01] startResource: Resource 'freeroam' started
+[2021-05-12 16:12:01] Starting editor_test
+[2021-05-12 16:12:01] startResource: Resource 'editor_test' started
+[2021-05-12 16:12:09] Stopping freeroam
+[2021-05-12 16:12:09] Stopping editor_test
+[2021-05-12 16:15:52] Starting freeroam
+[2021-05-12 16:15:52] startResource: Resource 'freeroam' started
+[2021-05-12 16:15:52] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:15:52] Starting editor_test
+[2021-05-12 16:15:52] startResource: Resource 'editor_test' started
+[2021-05-12 16:16:16] Stopping freeroam
+[2021-05-12 16:16:16] Stopping editor_test
+[2021-05-12 16:17:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000C06
+[2021-05-12 16:18:24] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000C0B
+[2021-05-12 16:20:19] Starting freeroam
+[2021-05-12 16:20:19] startResource: Resource 'freeroam' started
+[2021-05-12 16:20:19] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 16:20:19] Starting editor_test
+[2021-05-12 16:20:19] startResource: Resource 'editor_test' started
+[2021-05-12 16:20:36] Stopping freeroam
+[2021-05-12 16:20:36] Stopping editor_test
+[2021-05-12 16:27:55] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-12 16:27:55] Server stopped!
+[2021-05-12 16:27:55] Stopping resources..........
+[2021-05-12 16:27:55] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-12 23:49:30] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-12 23:49:31] Resources: 198 loaded, 0 failed
+[2021-05-12 23:49:31] Starting resources...
+[2021-05-12 23:49:31] Server minclientversion is now 1.5.7-9.19626
+[2021-05-12 23:49:32] Server started and is ready to accept connections!
+[2021-05-12 23:49:32] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-12 23:49:32] Type 'help' for a list of commands.
+[2021-05-12 23:49:32] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-12 23:49:33] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-12 23:52:17] Starting freeroam
+[2021-05-12 23:52:17] startResource: Resource 'freeroam' started
+[2021-05-12 23:52:17] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 23:52:17] Starting editor_test
+[2021-05-12 23:52:17] startResource: Resource 'editor_test' started
+[2021-05-12 23:53:18] Stopping freeroam
+[2021-05-12 23:53:18] Stopping editor_test
+[2021-05-12 23:55:40] Starting freeroam
+[2021-05-12 23:55:40] startResource: Resource 'freeroam' started
+[2021-05-12 23:55:40] Resource 'editor_test' changed, reloading and starting
+[2021-05-12 23:55:40] Starting editor_test
+[2021-05-12 23:55:40] startResource: Resource 'editor_test' started
+[2021-05-12 23:56:24] Stopping freeroam
+[2021-05-12 23:56:24] Stopping editor_test
+[2021-05-12 23:56:28] Starting freeroam
+[2021-05-12 23:56:29] startResource: Resource 'freeroam' started
+[2021-05-12 23:56:29] Starting editor_test
+[2021-05-12 23:56:29] startResource: Resource 'editor_test' started
+[2021-05-12 23:57:18] Stopping freeroam
+[2021-05-12 23:57:18] Stopping editor_test
+[2021-05-13 00:00:33] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000027A
+[2021-05-13 00:01:33] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000027E
+[2021-05-13 00:04:37] Starting freeroam
+[2021-05-13 00:04:37] startResource: Resource 'freeroam' started
+[2021-05-13 00:04:37] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 00:04:37] Starting editor_test
+[2021-05-13 00:04:37] startResource: Resource 'editor_test' started
+[2021-05-13 00:05:12] Stopping freeroam
+[2021-05-13 00:05:12] Stopping editor_test
+[2021-05-13 00:05:53] Starting freeroam
+[2021-05-13 00:05:53] startResource: Resource 'freeroam' started
+[2021-05-13 00:05:53] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 00:05:53] Starting editor_test
+[2021-05-13 00:05:53] startResource: Resource 'editor_test' started
+[2021-05-13 00:05:58] Stopping freeroam
+[2021-05-13 00:05:58] Stopping editor_test
+[2021-05-13 00:06:03] Starting freeroam
+[2021-05-13 00:06:03] startResource: Resource 'freeroam' started
+[2021-05-13 00:06:03] Starting editor_test
+[2021-05-13 00:06:03] startResource: Resource 'editor_test' started
+[2021-05-13 00:06:06] Stopping freeroam
+[2021-05-13 00:06:06] Stopping editor_test
+[2021-05-13 00:07:33] Starting freeroam
+[2021-05-13 00:07:33] startResource: Resource 'freeroam' started
+[2021-05-13 00:07:33] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 00:07:33] Starting editor_test
+[2021-05-13 00:07:33] startResource: Resource 'editor_test' started
+[2021-05-13 00:08:00] Stopping freeroam
+[2021-05-13 00:08:00] Stopping editor_test
+[2021-05-13 00:08:04] Starting freeroam
+[2021-05-13 00:08:04] startResource: Resource 'freeroam' started
+[2021-05-13 00:08:04] Starting editor_test
+[2021-05-13 00:08:04] startResource: Resource 'editor_test' started
+[2021-05-13 00:08:09] Stopping freeroam
+[2021-05-13 00:08:09] Stopping editor_test
+[2021-05-13 00:08:15] Starting freeroam
+[2021-05-13 00:08:15] startResource: Resource 'freeroam' started
+[2021-05-13 00:08:15] Starting editor_test
+[2021-05-13 00:08:15] startResource: Resource 'editor_test' started
+[2021-05-13 00:08:19] Stopping freeroam
+[2021-05-13 00:08:19] Stopping editor_test
+[2021-05-13 00:08:23] Starting freeroam
+[2021-05-13 00:08:23] startResource: Resource 'freeroam' started
+[2021-05-13 00:08:23] Starting editor_test
+[2021-05-13 00:08:23] startResource: Resource 'editor_test' started
+[2021-05-13 00:08:53] Stopping freeroam
+[2021-05-13 00:08:53] Stopping editor_test
+[2021-05-13 00:09:38] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 00:09:38] Server stopped!
+[2021-05-13 00:09:38] Stopping resources..........
+[2021-05-13 00:09:38] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-13 11:18:18] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-13 11:18:27] Resources: 198 loaded, 0 failed
+[2021-05-13 11:18:27] Starting resources...
+[2021-05-13 11:18:27] Server minclientversion is now 1.5.7-9.19626
+[2021-05-13 11:18:27] Server started and is ready to accept connections!
+[2021-05-13 11:18:27] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 11:18:27] Type 'help' for a list of commands.
+[2021-05-13 11:18:28] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 11:18:29] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-13 11:20:14] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 11:20:15] Server stopped!
+[2021-05-13 11:20:15] Stopping resources..........
+[2021-05-13 11:20:15] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-13 11:35:23] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-13 11:35:24] Resources: 198 loaded, 0 failed
+[2021-05-13 11:35:24] Starting resources...
+[2021-05-13 11:35:24] Server minclientversion is now 1.5.7-9.19626
+[2021-05-13 11:35:25] Server started and is ready to accept connections!
+[2021-05-13 11:35:25] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 11:35:25] Type 'help' for a list of commands.
+[2021-05-13 11:35:25] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 11:35:26] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-13 11:36:27] Starting freeroam
+[2021-05-13 11:36:27] startResource: Resource 'freeroam' started
+[2021-05-13 11:36:27] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:36:27] Starting editor_test
+[2021-05-13 11:36:27] startResource: Resource 'editor_test' started
+[2021-05-13 11:38:27] Stopping freeroam
+[2021-05-13 11:38:27] Stopping editor_test
+[2021-05-13 11:39:59] Starting freeroam
+[2021-05-13 11:39:59] startResource: Resource 'freeroam' started
+[2021-05-13 11:39:59] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:39:59] Starting editor_test
+[2021-05-13 11:39:59] startResource: Resource 'editor_test' started
+[2021-05-13 11:40:23] Stopping freeroam
+[2021-05-13 11:40:23] Stopping editor_test
+[2021-05-13 11:40:45] INFO: Cannot destroy element: element does not exist or invalid element
+[2021-05-13 11:43:37] Starting freeroam
+[2021-05-13 11:43:37] startResource: Resource 'freeroam' started
+[2021-05-13 11:43:37] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:43:37] Starting editor_test
+[2021-05-13 11:43:37] startResource: Resource 'editor_test' started
+[2021-05-13 11:43:48] Stopping freeroam
+[2021-05-13 11:43:48] Stopping editor_test
+[2021-05-13 11:44:49] Starting freeroam
+[2021-05-13 11:44:49] startResource: Resource 'freeroam' started
+[2021-05-13 11:44:49] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:44:49] Starting editor_test
+[2021-05-13 11:44:49] startResource: Resource 'editor_test' started
+[2021-05-13 11:45:04] Stopping freeroam
+[2021-05-13 11:45:04] Stopping editor_test
+[2021-05-13 11:47:55] Starting freeroam
+[2021-05-13 11:47:55] startResource: Resource 'freeroam' started
+[2021-05-13 11:47:55] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:47:55] Starting editor_test
+[2021-05-13 11:47:55] startResource: Resource 'editor_test' started
+[2021-05-13 11:48:27] Stopping freeroam
+[2021-05-13 11:48:27] Stopping editor_test
+[2021-05-13 11:49:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000194
+[2021-05-13 11:50:18] Starting freeroam
+[2021-05-13 11:50:18] startResource: Resource 'freeroam' started
+[2021-05-13 11:50:18] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 11:50:18] Starting editor_test
+[2021-05-13 11:50:18] startResource: Resource 'editor_test' started
+[2021-05-13 11:50:55] Stopping freeroam
+[2021-05-13 11:50:55] Stopping editor_test
+[2021-05-13 11:51:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001A8
+[2021-05-13 11:52:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001A9
+[2021-05-13 11:53:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001A9
+[2021-05-13 11:54:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001A9
+[2021-05-13 12:03:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001BE
+[2021-05-13 12:07:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001C0
+[2021-05-13 12:08:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001C0
+[2021-05-13 12:09:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001C1
+[2021-05-13 12:10:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001C4
+[2021-05-13 12:12:26] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000001C8
+[2021-05-13 12:16:15] Starting freeroam
+[2021-05-13 12:16:15] startResource: Resource 'freeroam' started
+[2021-05-13 12:16:15] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 12:16:15] Starting editor_test
+[2021-05-13 12:16:15] startResource: Resource 'editor_test' started
+[2021-05-13 12:16:30] Stopping freeroam
+[2021-05-13 12:16:30] Stopping editor_test
+[2021-05-13 12:16:50] Starting freeroam
+[2021-05-13 12:16:50] startResource: Resource 'freeroam' started
+[2021-05-13 12:16:50] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 12:16:50] Starting editor_test
+[2021-05-13 12:16:50] startResource: Resource 'editor_test' started
+[2021-05-13 12:17:05] Stopping freeroam
+[2021-05-13 12:17:05] Stopping editor_test
+[2021-05-13 12:17:41] Starting freeroam
+[2021-05-13 12:17:41] startResource: Resource 'freeroam' started
+[2021-05-13 12:17:41] Resource 'editor_test' changed, reloading and starting
+[2021-05-13 12:17:41] Starting editor_test
+[2021-05-13 12:17:41] startResource: Resource 'editor_test' started
+[2021-05-13 12:18:01] Stopping freeroam
+[2021-05-13 12:18:01] Stopping editor_test
+[2021-05-13 14:50:45] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 14:50:46] Server stopped!
+[2021-05-13 14:50:46] Stopping resources..........
+[2021-05-13 14:50:46] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-13 14:51:44] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-13 14:51:45] Resources: 199 loaded, 0 failed
+[2021-05-13 14:51:45] Starting resources...
+[2021-05-13 14:51:45] Server minclientversion is now 1.5.7-9.19626
+[2021-05-13 14:51:46] Server started and is ready to accept connections!
+[2021-05-13 14:51:46] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 14:51:46] Type 'help' for a list of commands.
+[2021-05-13 14:51:47] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 14:51:48] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-13 14:52:56] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 14:52:56] Server stopped!
+[2021-05-13 14:52:56] Stopping resources..........
+[2021-05-13 14:52:57] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-13 14:55:59] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-13 14:56:00] Resources: 199 loaded, 0 failed
+[2021-05-13 14:56:01] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-13 14:56:01] Server stopped!
+[2021-05-13 14:56:01] Stopping resources...
+[2021-05-13 14:56:01] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-13 14:56:50] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-13 14:56:51] Server stopped!
+[2021-05-13 14:56:51] Stopping resources...
+[2021-05-13 14:56:51] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-15 15:04:58] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-15 15:05:06] Resources: 199 loaded, 0 failed
+[2021-05-15 15:05:06] Starting resources...
+[2021-05-15 15:05:06] Server minclientversion is now 1.5.7-9.19626
+[2021-05-15 15:05:07] Server started and is ready to accept connections!
+[2021-05-15 15:05:07] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-15 15:05:07] Type 'help' for a list of commands.
+[2021-05-15 15:05:08] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-15 15:05:09] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-15 15:10:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000056
+[2021-05-15 15:12:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000058
+[2021-05-15 15:13:16] Starting freeroam
+[2021-05-15 15:13:16] startResource: Resource 'freeroam' started
+[2021-05-15 15:13:16] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:13:16] Starting editor_test
+[2021-05-15 15:13:16] startResource: Resource 'editor_test' started
+[2021-05-15 15:13:24] Stopping freeroam
+[2021-05-15 15:13:24] Stopping editor_test
+[2021-05-15 15:17:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000092
+[2021-05-15 15:18:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000094
+[2021-05-15 15:23:16] Starting freeroam
+[2021-05-15 15:23:16] startResource: Resource 'freeroam' started
+[2021-05-15 15:23:16] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:23:16] Starting editor_test
+[2021-05-15 15:23:16] startResource: Resource 'editor_test' started
+[2021-05-15 15:23:24] Stopping freeroam
+[2021-05-15 15:23:24] Stopping editor_test
+[2021-05-15 15:23:40] Starting freeroam
+[2021-05-15 15:23:40] startResource: Resource 'freeroam' started
+[2021-05-15 15:23:40] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:23:40] Starting editor_test
+[2021-05-15 15:23:40] startResource: Resource 'editor_test' started
+[2021-05-15 15:24:07] Stopping freeroam
+[2021-05-15 15:24:07] Stopping editor_test
+[2021-05-15 15:24:35] Starting freeroam
+[2021-05-15 15:24:35] startResource: Resource 'freeroam' started
+[2021-05-15 15:24:35] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:24:35] Starting editor_test
+[2021-05-15 15:24:35] startResource: Resource 'editor_test' started
+[2021-05-15 15:26:12] Stopping freeroam
+[2021-05-15 15:26:12] Stopping editor_test
+[2021-05-15 15:28:14] Starting freeroam
+[2021-05-15 15:28:14] startResource: Resource 'freeroam' started
+[2021-05-15 15:28:14] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:28:14] Starting editor_test
+[2021-05-15 15:28:14] startResource: Resource 'editor_test' started
+[2021-05-15 15:28:46] Stopping freeroam
+[2021-05-15 15:28:46] Stopping editor_test
+[2021-05-15 15:31:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000157
+[2021-05-15 15:40:08] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000015C
+[2021-05-15 15:41:42] Starting freeroam
+[2021-05-15 15:41:42] startResource: Resource 'freeroam' started
+[2021-05-15 15:41:42] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:41:42] Starting editor_test
+[2021-05-15 15:41:42] startResource: Resource 'editor_test' started
+[2021-05-15 15:42:14] Stopping freeroam
+[2021-05-15 15:42:14] Stopping editor_test
+[2021-05-15 15:47:10] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-15 15:47:10] Server stopped!
+[2021-05-15 15:47:11] Stopping resources..........
+[2021-05-15 15:47:11] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-15 15:47:12] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-15 15:47:13] Resources: 199 loaded, 0 failed
+[2021-05-15 15:47:13] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-15 15:47:14] Server stopped!
+[2021-05-15 15:47:14] Stopping resources...
+[2021-05-15 15:47:14] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-15 15:47:21] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-15 15:47:22] Resources: 199 loaded, 0 failed
+[2021-05-15 15:47:22] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-15 15:47:23] Server stopped!
+[2021-05-15 15:47:23] Stopping resources...
+[2021-05-15 15:47:23] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-15 15:47:40] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-15 15:47:41] Resources: 199 loaded, 0 failed
+[2021-05-15 15:47:41] Starting resources...
+[2021-05-15 15:47:41] Server minclientversion is now 1.5.7-9.19626
+[2021-05-15 15:47:41] Server started and is ready to accept connections!
+[2021-05-15 15:47:41] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-15 15:47:41] Type 'help' for a list of commands.
+[2021-05-15 15:47:42] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-15 15:47:43] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-15 15:52:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000058
+[2021-05-15 15:53:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000059
+[2021-05-15 15:54:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000005C
+[2021-05-15 15:55:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000005D
+[2021-05-15 15:57:52] Starting freeroam
+[2021-05-15 15:57:52] startResource: Resource 'freeroam' started
+[2021-05-15 15:57:52] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 15:57:52] Starting editor_test
+[2021-05-15 15:57:52] startResource: Resource 'editor_test' started
+[2021-05-15 15:58:00] Stopping freeroam
+[2021-05-15 15:58:00] Stopping editor_test
+[2021-05-15 15:59:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000098
+[2021-05-15 16:00:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000098
+[2021-05-15 16:01:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000098
+[2021-05-15 16:02:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 00000098
+[2021-05-15 16:03:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009A
+[2021-05-15 16:04:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009B
+[2021-05-15 16:06:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009D
+[2021-05-15 16:08:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009E
+[2021-05-15 16:10:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009F
+[2021-05-15 16:11:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 0000009F
+[2021-05-15 16:12:42] WARNING: editor_main\server\saveloadtest_server.lua:667: Using getElementPosition as bad element data for userdata: 000000A0
+[2021-05-15 16:15:13] Starting freeroam
+[2021-05-15 16:15:13] startResource: Resource 'freeroam' started
+[2021-05-15 16:15:13] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 16:15:13] Starting editor_test
+[2021-05-15 16:15:13] startResource: Resource 'editor_test' started
+[2021-05-15 16:15:20] Stopping freeroam
+[2021-05-15 16:15:20] Stopping editor_test
+[2021-05-15 16:15:28] Starting freeroam
+[2021-05-15 16:15:28] startResource: Resource 'freeroam' started
+[2021-05-15 16:15:28] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 16:15:28] Starting editor_test
+[2021-05-15 16:15:28] startResource: Resource 'editor_test' started
+[2021-05-15 16:15:39] Stopping freeroam
+[2021-05-15 16:15:39] Stopping editor_test
+[2021-05-15 16:18:27] Starting freeroam
+[2021-05-15 16:18:27] startResource: Resource 'freeroam' started
+[2021-05-15 16:18:27] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 16:18:27] Starting editor_test
+[2021-05-15 16:18:27] startResource: Resource 'editor_test' started
+[2021-05-15 16:19:42] Stopping freeroam
+[2021-05-15 16:19:42] Stopping editor_test
+[2021-05-15 16:23:19] Starting freeroam
+[2021-05-15 16:23:19] startResource: Resource 'freeroam' started
+[2021-05-15 16:23:19] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 16:23:19] Starting editor_test
+[2021-05-15 16:23:19] startResource: Resource 'editor_test' started
+[2021-05-15 16:23:28] Stopping freeroam
+[2021-05-15 16:23:28] Stopping editor_test
+[2021-05-15 16:27:28] Starting freeroam
+[2021-05-15 16:27:28] startResource: Resource 'freeroam' started
+[2021-05-15 16:27:28] Resource 'editor_test' changed, reloading and starting
+[2021-05-15 16:27:28] Starting editor_test
+[2021-05-15 16:27:28] startResource: Resource 'editor_test' started
+[2021-05-15 16:28:16] Stopping freeroam
+[2021-05-15 16:28:16] Stopping editor_test
+[2021-05-15 16:30:42] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-15 16:30:42] Server stopped!
+[2021-05-15 16:30:42] Stopping resources..........
+[2021-05-15 16:30:42] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-15 19:11:30] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-15 19:11:30] ERROR: Couldn't parse meta file for resource 'db' [Out of Elements]
+[2021-05-15 19:11:30] Loading of resource 'db' failed
+[2021-05-15 19:11:31] ERROR: Problem with resource: db; Couldn't parse meta file for resource 'db' [Out of Elements]
+[2021-05-15 19:11:31] Resources: 201 loaded, 1 failed
+[2021-05-15 19:11:31] Starting resources...
+[2021-05-15 19:11:31] Server minclientversion is now 1.5.7-9.19626
+[2021-05-15 19:11:31] Server started and is ready to accept connections!
+[2021-05-15 19:11:31] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-15 19:11:31] Type 'help' for a list of commands.
+[2021-05-15 19:11:31] Resource 'db' changed, reloading
+[2021-05-15 19:11:31] ERROR: Couldn't parse meta file for resource 'db' [Out of Elements]
+[2021-05-15 19:11:31] Loading of resource 'db' failed
+[2021-05-15 19:11:31] ERROR: Problem with resource: db; Couldn't parse meta file for resource 'db' [Out of Elements]
+[2021-05-15 19:11:31] Resources: 201 loaded, 1 failed
+[2021-05-15 19:11:32] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-15 19:11:32] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-15 19:11:34] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-15 19:11:35] Server stopped!
+[2021-05-15 19:11:35] Stopping resources..........
+[2021-05-15 19:11:35] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-16 01:13:35] Resources: 199 loaded, 0 failed
+[2021-05-16 01:13:35] Starting resources...
+[2021-05-16 01:13:36] Server minclientversion is now 1.5.7-9.19626
+[2021-05-16 01:13:36] ERROR: Couldn't find resource ipb. Check it exists.
+[2021-05-16 01:13:36] Server started and is ready to accept connections!
+[2021-05-16 01:13:36] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-16 01:13:36] Type 'help' for a list of commands.
+[2021-05-16 01:13:36] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-16 01:13:36] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-16 01:14:22] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-16 01:14:23] Server stopped!
+[2021-05-16 01:14:23] Stopping resources.........
+[2021-05-16 01:14:23] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-16 01:22:01] Resources: 199 loaded, 0 failed
+[2021-05-16 01:22:01] Starting resources...
+[2021-05-16 01:22:01] Server minclientversion is now 1.5.7-9.19626
+[2021-05-16 01:22:01] ERROR: Couldn't find resource ipb. Check it exists.
+[2021-05-16 01:22:01] Server started and is ready to accept connections!
+[2021-05-16 01:22:01] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-16 01:22:01] Type 'help' for a list of commands.
+[2021-05-16 01:22:02] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-16 01:22:02] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-16 01:22:21] Resources: 199 loaded, 0 failed
+[2021-05-16 01:22:21] Starting resources...
+[2021-05-16 01:22:21] Server minclientversion is now 1.5.7-9.19626
+[2021-05-16 01:22:21] ERROR: Couldn't find resource ipb. Check it exists.
+[2021-05-16 01:22:21] Server started and is ready to accept connections!
+[2021-05-16 01:22:21] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-16 01:22:21] Type 'help' for a list of commands.
+[2021-05-16 01:22:21] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-16 01:22:22] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-16 01:23:03] Starting deathmatch
+[2021-05-16 01:23:03] startResource: Resource 'deathmatch' started
+[2021-05-16 01:23:21] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-16 01:23:22] Server stopped!
+[2021-05-16 01:23:22] Stopping resources..........
+[2021-05-16 01:23:22] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Map Editor Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..rver/mods/deathmatch/logs/editor_server.log
+= Maximum players  : 1
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-17 23:27:56] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-17 23:27:57] Resources: 203 loaded, 0 failed
+[2021-05-17 23:27:57] Starting resources...
+[2021-05-17 23:27:57] Server minclientversion is now 1.5.7-9.19626
+[2021-05-17 23:27:57] Server started and is ready to accept connections!
+[2021-05-17 23:27:57] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-17 23:27:57] Type 'help' for a list of commands.
+[2021-05-17 23:27:58] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-17 23:27:59] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-17 23:28:39] Starting freeroam
+[2021-05-17 23:28:39] startResource: Resource 'freeroam' started
+[2021-05-17 23:28:39] Resource 'editor_test' changed, reloading and starting
+[2021-05-17 23:28:39] Starting editor_test
+[2021-05-17 23:28:39] startResource: Resource 'editor_test' started
+[2021-05-17 23:28:50] Stopping freeroam
+[2021-05-17 23:28:50] Stopping editor_test
+[2021-05-17 23:30:40] Starting freeroam
+[2021-05-17 23:30:40] startResource: Resource 'freeroam' started
+[2021-05-17 23:30:40] Resource 'editor_test' changed, reloading and starting
+[2021-05-17 23:30:40] Starting editor_test
+[2021-05-17 23:30:40] startResource: Resource 'editor_test' started
+[2021-05-17 23:30:48] Stopping freeroam
+[2021-05-17 23:30:48] Stopping editor_test
+[2021-05-17 23:31:02] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-17 23:31:03] Server stopped!
+[2021-05-17 23:31:03] Stopping resources..........
+[2021-05-17 23:31:03] Closing SQLite3 database

@@ -1,0 +1,209 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:53:24] Resources: 199 loaded, 0 failed
+[2021-05-13 14:53:24] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-13 14:53:25] Server stopped!
+[2021-05-13 14:53:25] Stopping resources...
+[2021-05-13 14:53:25] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:55:05] Resources: 199 loaded, 0 failed
+[2021-05-13 14:55:05] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-13 14:55:06] Server stopped!
+[2021-05-13 14:55:06] Stopping resources...
+[2021-05-13 14:55:06] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:55:52] Resources: 199 loaded, 0 failed
+[2021-05-13 14:55:52] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-13 14:55:53] Server stopped!
+[2021-05-13 14:55:53] Stopping resources...
+[2021-05-13 14:55:53] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:56:32] Resources: 199 loaded, 0 failed
+[2021-05-13 14:56:32] Server password set to '1234'
+[2021-05-13 14:56:32] Starting resources...
+[2021-05-13 14:56:32] Admin access list successfully updated 
+[2021-05-13 14:56:32] INFO: Admin added 506 missing rights
+[2021-05-13 14:56:32] Server minclientversion is now 1.3.0-9.04311
+[2021-05-13 14:56:32] Server minclientversion is now 1.5.6-9.16362
+[2021-05-13 14:56:32] Gamemode 'play' started.
+[2021-05-13 14:56:32] Server started and is ready to accept connections!
+[2021-05-13 14:56:32] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 14:56:32] Type 'help' for a list of commands.
+[2021-05-13 14:56:33] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 14:56:34] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-13 14:56:47] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 14:56:48] Server stopped!
+[2021-05-13 14:56:48] Stopping resources.......................
+[2021-05-13 14:56:48] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:56:59] Resources: 199 loaded, 0 failed
+[2021-05-13 14:56:59] ERROR: Could not bind the server on interface '' and port '22010'!
+[2021-05-13 14:57:00] Server stopped!
+[2021-05-13 14:57:00] Stopping resources...
+[2021-05-13 14:57:00] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 14:57:25] Resources: 199 loaded, 0 failed
+[2021-05-13 14:57:25] Server password set to '1234'
+[2021-05-13 14:57:25] Starting resources...
+[2021-05-13 14:57:25] Server minclientversion is now 1.3.0-9.04311
+[2021-05-13 14:57:25] Server minclientversion is now 1.5.6-9.16362
+[2021-05-13 14:57:25] Gamemode 'play' started.
+[2021-05-13 14:57:25] Server started and is ready to accept connections!
+[2021-05-13 14:57:25] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 14:57:25] Type 'help' for a list of commands.
+[2021-05-13 14:57:27] CONNECT: WhimsicalCurio13 connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 14:57:28] JOIN: WhimsicalCurio13 joined the game (IP: 127.0.0.1)
+[2021-05-13 15:02:58] QUIT: WhimsicalCurio13 left the game [Quit]
+[2021-05-13 15:02:59] Server stopped!
+[2021-05-13 15:02:59] Stopping resources.........................
+[2021-05-13 15:02:59] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 15:10:18] Resources: 199 loaded, 0 failed
+[2021-05-13 15:10:18] Server password set to '1234'
+[2021-05-13 15:10:18] Starting resources.....
+[2021-05-13 15:10:18] Server started and is ready to accept connections!
+[2021-05-13 15:10:18] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 15:10:18] Type 'help' for a list of commands.
+[2021-05-13 15:10:19] Server minclientversion is now 1.3.0-9.04311
+[2021-05-13 15:10:19] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 15:10:19] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-13 15:10:46] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-13 15:10:47] Server stopped!
+[2021-05-13 15:10:47] Stopping resources.....
+[2021-05-13 15:10:47] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 15:11:03] Resources: 199 loaded, 0 failed
+[2021-05-13 15:11:03] Server password set to '1234'
+[2021-05-13 15:11:03] Starting resources.....
+[2021-05-13 15:11:03] Server minclientversion is now 1.3.1
+[2021-05-13 15:11:03] Server started and is ready to accept connections!
+[2021-05-13 15:11:03] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 15:11:03] Type 'help' for a list of commands.
+[2021-05-13 15:11:03] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 15:11:03] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-13 15:11:25] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-13 15:11:26] Server stopped!
+[2021-05-13 15:11:26] Stopping resources.......
+[2021-05-13 15:11:26] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : ARIANPAPA
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 2
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2021-05-13 15:16:04] Resources: 199 loaded, 0 failed
+[2021-05-13 15:16:04] Server password set to '1234'
+[2021-05-13 15:16:04] Starting resources.....
+[2021-05-13 15:16:04] Server minclientversion is now 1.3.1
+[2021-05-13 15:16:04] Server minclientversion is now 1.5.6-9.16362
+[2021-05-13 15:16:04] Server started and is ready to accept connections!
+[2021-05-13 15:16:04] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-13 15:16:04] Type 'help' for a list of commands.
+[2021-05-13 15:16:05] CONNECT: Arian_Calabrese connected (IP: 127.0.0.1  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-13 15:16:05] JOIN: Arian_Calabrese joined the game (IP: 127.0.0.1)
+[2021-05-13 15:21:37] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-13 15:21:38] Server stopped!
+[2021-05-13 15:21:38] Stopping resources.........
+[2021-05-13 15:21:38] Closing SQLite3 database
