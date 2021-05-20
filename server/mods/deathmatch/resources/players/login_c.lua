@@ -11,26 +11,29 @@ end
 local function isPasswordValid(password)
     return string.len(password) > 1 and type(password) == 'string'
 end
+
+local progress = 0.0 -- value between 0 and 1 will be used to get the new position of camera (0.5 will be half way through between the 2 points) 
+
+local function moveCamera()
+    if progress < 1 then
+        progress = progress + 0.001; -- increase to move the camera faster 
+        -- if exitAnimation then
+        --     return
+        -- end
+        local x, y, z = interpolateBetween(2366, -1055, 155, 1412.4000244141, -1769.5999755859, 86.300003051758,
+                            progress, "OutBack");
+        setCameraMatrix(x, y, z, 1495.1999511719, -1669.6999511719, 20.200000762939)
+    else
+        return
+    end
+end
+
 addEvent('login-menu:open', true)
 addEventHandler('login-menu:open', root, function()
-    setCameraMatrix(1627, -2286, 95, 0, 0, 20)
+    setCameraMatrix(2366, -1055, 155, 0, 0, 20)
     fadeCamera(true)
-    local progress = 0.0; -- value between 0 and 1 will be used to get the new position of camera (0.5 will be half way through between the 2 points) 
-    local i = 0;
-    addEventHandler("onClientPreRender", root, function()
-        if progress < 2 then
-            progress = progress + 0.002; -- increase to move the camera faster 
-        end
-        local x = 1490 + 50 * math.cos(progress * math.pi);
-        local y = -1675.5 + 50 * math.sin(progress * math.pi);
-        i = i + 1
-        setCameraMatrix(x, y, 100, i, 0, 0)
-        -- if progress < 1 then
-        --     progress = progress + 0.002; -- increase to move the camera faster 
-        -- end
-        -- local x, y, z = interpolateBetween(1627, -2286, 95, 186, -1380, 78, progress, "InQuad");
-        -- setCameraMatrix(x, y, z, 28, 180, 30)
-    end)
+    local exitAnimation = false
+    addEventHandler("onClientPreRender", root, moveCamera)
     -- initialize de cursor
     showCursor(true, true)
     guiSetInputMode('no_binds')
@@ -73,6 +76,7 @@ addEventHandler('login-menu:open', root, function()
         if not inputValid then
             return
         end
+        removeEventHandler("onClientPreRender", root, moveCamera)
         triggerServerEvent('auth:login-attempt', localPlayer, username, password)
     end, false)
     local registerButton = guiCreateButton(10, 190, (width / 2) - 15, 30, 'Sign Up', false, window)
@@ -98,6 +102,7 @@ addEventHandler('login-menu:open', root, function()
         if not inputValid then
             return
         end
+        exitAnimation = true;
         triggerServerEvent('auth:register-attempt', localPlayer, username, password)
     end, false)
     local forgotPasswordButton = guiCreateButton((width / 2) + 5, 190, (width / 2) - 15, 30, 'Forgoted password', false,
