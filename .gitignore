@@ -1,0 +1,7 @@
+**/*.log
+*.ddl
+# misc
+dumps/
+backups/
+logs/
+resource-cache/
