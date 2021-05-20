@@ -1,8 +1,7 @@
-# 
-ignore all logs *.log 
-ignore all logs *.ddl
+**/*.log
+*.ddl
 # misc
-/dumps
-/backups
-/logs
-/resource-cache
+dumps/
+backups/
+logs/
+resource-cache/
