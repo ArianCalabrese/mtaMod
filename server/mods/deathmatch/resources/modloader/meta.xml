@@ -1,0 +1,16 @@
+<meta>
+    <info type="script" description="Automatically load any mod you want!" author="Remi-X" version="1.0.3" name="ModLoader" />
+    <script src="loader_s.lua" type="server" />
+    <script src="deleter_s.lua" type="server" />
+    <script src="handling.lua" type="server" />
+    <script src="data.lua" type="server" />
+    <script src="replacer_c.lua" type="client" />
+    <file src="vehicles/broadway.txd"></file>
+    <file src="vehicles/broadway.dff"></file>
+    <file src="vehicles/buffalo.txd"></file>
+    <file src="vehicles/buffalo.dff"></file>
+    <file src="vehicles/phoenix.txd"></file>
+    <file src="vehicles/phoenix.dff"></file>
+    <file src="vehicles/turismo.txd"></file>
+    <file src="vehicles/turismo.dff"></file>
+</meta>

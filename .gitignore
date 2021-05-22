@@ -4,4 +4,4 @@
 dumps/
 backups/
 logs/
-resource-cache/
+**/resource-cache/

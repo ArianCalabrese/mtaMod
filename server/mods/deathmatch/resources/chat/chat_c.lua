@@ -1,19 +1,39 @@
 local distanciaChat = 20
 local distanciaSusurro = 5
 local distanciaGritar = 30
+local COLORS = {
+    ["ME"] = "#CC97F2",
+    ["DO"] = "#9EC73D",
+    ["S"] = "#FAD98C",
+    ["B"] = "#9C9C9C"
+}
+
+-- new Float: AccionesRadios[20] = {
+--     30.0, // 0 - /me
+--     30.0, // 1 - /ame
+--     35.0, // 2 - /do
+--     50.0, // 3 - /g
+--     3.0, // 4 - /s
+--     60.0 // 5 - /m
+-- };
 
 function chatNormalME(mensaje, tipoMensaje)
     local jugadores = getElementsByType("player")
     local x, y, z = getElementPosition(source)
-    local sourceName = getPlayerName(source)
-
+    local sourceName = string.gsub(getPlayerName(source), "_", " ")
+    local account = getPlayerAccount(source)
+    local accent = getAccountData(account, "accent")
     if tipoMensaje == 0 then
         for i, v in ipairs(jugadores) do
             local x2, y2, z2 = getElementPosition(v)
-
             if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaChat then
                 if getElementDimension(source) == getElementDimension(v) then
-                    outputChatBox("" .. sourceName .. " dice: " .. mensaje .. ".", v, 255, 255, 255, false)
+                    if accent then
+                        outputChatBox(accent .. "" .. sourceName .. " dice: " .. mensaje .. ".", v, 255, 255, 255, false)
+
+                    else
+                        outputChatBox("" .. sourceName .. " dice: " .. mensaje .. ".", v, 255, 255, 255, false)
+                    end
                 end
             end
         end
@@ -24,7 +44,7 @@ function chatNormalME(mensaje, tipoMensaje)
 
             if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaChat then
                 if getElementDimension(source) == getElementDimension(v) then
-                    outputChatBox("- " .. sourceName .. " " .. mensaje .. ".", v, 2, 197, 255, false)
+                    outputChatBox(COLORS["ME"] .. "- " .. sourceName .. " " .. mensaje .. ".", v, 255, 255, 255, true)
                 end
             end
         end
@@ -47,7 +67,8 @@ function chatSusurro(player, cmd, ...)
 
         if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaSusurro then
             if getElementDimension(player) == getElementDimension(v) then
-                outputChatBox("" .. sourceName .. " susurra: " .. mensaje .. "...", v, 210, 210, 210, false)
+                outputChatBox(COLORS["S"] .. "" .. sourceName .. " susurra: " .. mensaje .. "...", v, 255, 255, 255,
+                    true)
             end
         end
     end
@@ -85,7 +106,8 @@ function chatDo(player, cmd, ...)
 
         if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaChat then
             if getElementDimension(player) == getElementDimension(v) then
-                outputChatBox("" .. sourceName .. " [Entorno] " .. mensaje .. ".", v, 249, 255, 104, false)
+                outputChatBox(COLORS["DO"] .. "((" .. sourceName .. ")) [Entorno] " .. mensaje .. ".", v, 255, 255, 255,
+                    true)
             end
         end
     end
@@ -104,7 +126,8 @@ function chatOOC(player, cmd, ...)
 
         if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaChat then
             if getElementDimension(player) == getElementDimension(v) then
-                outputChatBox("" .. sourceName .. " [OOC]: (( " .. mensaje .. ". ))", v, 255, 255, 255, false)
+                outputChatBox(COLORS["B"] .. "" .. sourceName .. " [OOC]: (( " .. mensaje .. ". ))", v, 255, 255, 255,
+                    true)
             end
         end
     end
