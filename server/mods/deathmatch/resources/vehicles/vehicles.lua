@@ -46,3 +46,4 @@ addEventHandler('onResourceStop', resourceRoot, function()
             id)
     end
 end)
+--LOCK VEHICLES SYSTEM

@@ -6,7 +6,7 @@ end
 
 -- create an account
 addEvent('auth:register-attempt', true)
-addEventHandler('auth:register-attempt', root, function(username, password)
+addEventHandler('auth:register-attempt', root, function(username, password, skin, age, sex)
     -- check if an account with that username already exists
     if getAccount(username) then
         return outputChatBox('An account already exists with that name.', source, 255, 100, 100)
@@ -16,7 +16,7 @@ addEventHandler('auth:register-attempt', root, function(username, password)
     if not isPasswordValid(password) then
         return outputChatBox('The password supplied was not valid.', source, 255, 100, 100)
     end
-
+    outputChatBox('Pasa los 2 ifs', source, 255, 100, 100)
     -- create a hash of the password
     local player = source
     passwordHash(password, 'bcrypt', {}, function(hashedPassword)
@@ -25,14 +25,18 @@ addEventHandler('auth:register-attempt', root, function(username, password)
         setAccountData(account, 'hashed_password', hashedPassword)
 
         -- let the user know of our success
-        outputChatBox('Your account has been successfully created! You may now login with /accountLogin', player, 100,
-            255, 100)
+        outputChatBox('Registrado con exito!', player, 100, 255, 100)
         -- automatically login and spawn the player.
         logIn(player, account, hashedPassword)
+        -- setting personal info
+        setAccountData(account, 'age', age)
+        setAccountData(account, 'sex', sex)
         spawnPlayer(player, 0, 0, 10)
+        setElementModel(player, skin)
+        setPlayerMoney(player, 10000)
         setCameraTarget(player, player)
 
-        return triggerClientEvent(player, 'register-menu:close', player)
+        return triggerClientEvent(player, 'register-character-creation:close', player)
     end)
 end)
 
@@ -54,7 +58,23 @@ addEventHandler("auth:login-attempt", root, function(username, password)
         end
 
         if logIn(player, account, hashedPassword) then
-            spawnPlayer(player, 0, 0, 10)
+
+            -- Player position and Rotation
+            local x = getAccountData(account, "x")
+            local y = getAccountData(account, "y")
+            local z = getAccountData(account, "z")
+            local rz = getAccountData(account, "rz")
+            spawnPlayer(player, x, y, z)
+            setElementRotation(player, 0, 0, rz)
+
+            -- Player Stats (Skin, money, armour, health)
+            local health, armor, money, skin = getAccountData(account, "health"), getAccountData(account, "armor"),
+                getAccountData(account, "money"), getAccountData(account, "skin")
+            setElementHealth(player, health)
+            setPedArmor(player, armor)
+            setPlayerMoney(player, money)
+            setElementModel(player, skin)
+            -- Camera
             setCameraTarget(player, player)
             return triggerClientEvent(player, 'login-menu:close', player)
         end
@@ -66,3 +86,4 @@ end)
 addCommandHandler("accountLogout", function(player)
     logOut(player)
 end, false, false)
+

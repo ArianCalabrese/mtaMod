@@ -3,6 +3,5 @@ addCommandHandler('flycar', function()
     if not vehicle then
         outputChatBox('You are not in a vehicle.', 255, 100, 100)
     end
-
     setWorldSpecialPropertyEnabled('aircars', true)
 end)

@@ -17,9 +17,6 @@ local progress = 0.0 -- value between 0 and 1 will be used to get the new positi
 local function moveCamera()
     if progress < 1 then
         progress = progress + 0.001; -- increase to move the camera faster 
-        -- if exitAnimation then
-        --     return
-        -- end
         local x, y, z = interpolateBetween(2366, -1055, 155, 1412.4000244141, -1769.5999755859, 86.300003051758,
                             progress, "OutBack");
         setCameraMatrix(x, y, z, 1495.1999511719, -1669.6999511719, 20.200000762939)
@@ -27,12 +24,11 @@ local function moveCamera()
         return
     end
 end
-
+-- LOGIN EVENT OPEN AND HANDLER
 addEvent('login-menu:open', true)
 addEventHandler('login-menu:open', root, function()
     setCameraMatrix(2366, -1055, 155, 0, 0, 20)
     fadeCamera(true)
-    local exitAnimation = false
     addEventHandler("onClientPreRender", root, moveCamera)
     -- initialize de cursor
     showCursor(true, true)
@@ -76,7 +72,7 @@ addEventHandler('login-menu:open', root, function()
         if not inputValid then
             return
         end
-        removeEventHandler("onClientPreRender", root, moveCamera)
+        -- removeEventHandler("onClientPreRender", root, moveCamera)
         triggerServerEvent('auth:login-attempt', localPlayer, username, password)
     end, false)
     local registerButton = guiCreateButton(10, 190, (width / 2) - 15, 30, 'Sign Up', false, window)
@@ -102,22 +98,30 @@ addEventHandler('login-menu:open', root, function()
         if not inputValid then
             return
         end
-        exitAnimation = true;
-        triggerServerEvent('auth:register-attempt', localPlayer, username, password)
+        triggerEvent('register-menu:close', localPlayer, username, password)
+
+        -- triggerServerEvent('auth:register-attempt', localPlayer, username, password)
     end, false)
     local forgotPasswordButton = guiCreateButton((width / 2) + 5, 190, (width / 2) - 15, 30, 'Forgoted password', false,
                                      window)
 end, true)
+-- LOGIN EVENT CLOSE AND HANDLER
 addEvent('login-menu:close', true)
 addEventHandler('login-menu:close', root, function()
+    removeEventHandler("onClientPreRender", root, moveCamera)
     destroyElement(window)
     showCursor(false, false)
     guiSetInputMode('allow_binds')
 end)
+-- REGISTER EVENT OPEN AND HANDLER
 addEvent('register-menu:close', true)
-addEventHandler('register-menu:close', root, function()
+addEventHandler('register-menu:close', root, function(username, password)
+    removeEventHandler("onClientPreRender", root, moveCamera)
     destroyElement(window)
     showCursor(false, false)
     guiSetInputMode('allow_binds')
+    -- auth:register-character_creation
+    triggerEvent('auth:register-character_creation', localPlayer, username, password)
+
 end)
 
