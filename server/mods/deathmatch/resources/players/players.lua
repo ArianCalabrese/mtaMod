@@ -16,6 +16,15 @@ addCommandHandler('clearchat', function(player)
 end, false, false)
 
 addEventHandler('onPlayerJoin', root, function()
+    --NAME CONTROL
+        --HasNumber
+        --Name_Format (check if _ exist)
+        --Invalid characters ($,%,#)
+        
+    -- local playerName = getPlayerName(source)
+    -- if string.match(playerName, "%d+") then
+    --     kickPlayer(source, nil, "Su nombre contiene numeros. Corrija esto y vuelva a ingresar")
+    -- end
     setOcclusionsEnabled(false) -- esto soluciona los bugs de camera
     triggerClientEvent(source, 'login-menu:open', source)
 end)

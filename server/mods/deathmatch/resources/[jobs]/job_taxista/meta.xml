@@ -1,0 +1,14 @@
+<meta>
+    <info type="script" name="JobTaxi" author="LordHenry" version="2.9.5" description="Emprego de taxista na Estacao Unity em Los Santos, possui sistema de level temporario, suporte a painel de profissao e funciona com Players e NPCs."></info>
+    <map src="MapaTaxiJob.map" dimension="0"></map>
+	<file src="Mission Accomplished.mp3"/>
+    <settings>
+        <setting name="*repairTaxi" value="[true]" friendlyname="Repair Taxi on level up" group="Mude somente abaixo:" accept="true,false" desc="O taxi deve ser reparado quando o jogador for promovido no emprego de taxista?"></setting>
+		<setting name="*vipACL" value="Vip" friendlyname="ACL Group VIP" group="Mude somente abaixo:" examples="VIP,Premium,Pay2Win,Payers" desc="Nome exato da ACL Group dos jogadores que sao VIP."></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	<script src="taxi_s.lua" type="server" />
+	<script src="taxi_c.lua" type="client" />
+	<script src="Tele-trab2.lua" type="server" />
+</meta>
