@@ -6859,3 +6859,724 @@ debuguptime              sfakelag
 [2021-05-22 19:18:24] To stop the server, type 'shutdown' or press Ctrl-C
 [2021-05-22 19:18:24] Type 'help' for a list of commands.
 [2021-05-22 19:18:24] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-22 19:46:16] restart: Requested by Console
+[2021-05-22 19:46:16] restart: Resource restarting...
+[2021-05-22 19:46:16] Stopping vehicles
+[2021-05-22 19:46:16] Resource 'vehicles' changed, reloading and starting
+[2021-05-22 19:46:16] Starting vehicles
+[2021-05-22 19:46:16] WARNING: vehicles\vehicles.lua:19: Bad argument @ 'addCommandHandler' [Expected function at argument 2, got nil]
+[2021-05-22 19:46:16] vehicles restarted successfully
+[2021-05-22 19:46:43] restart: Requested by Console
+[2021-05-22 19:46:43] restart: Resource restarting...
+[2021-05-22 19:46:43] Stopping vehicles
+[2021-05-22 19:46:43] Resource 'vehicles' changed, reloading and starting
+[2021-05-22 19:46:43] Starting vehicles
+[2021-05-22 19:46:43] vehicles restarted successfully
+[2021-05-22 19:46:53] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-22 19:46:54] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-22 19:46:54] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-22 19:46:59] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-22 19:47:04] WARNING: vehicles\vehicles.lua:25: Bad argument @ 'createVehicle' [Expected number at argument 1, got nil]
+[2021-05-22 19:47:04] WARNING: vehicles\vehicles.lua:24: dbExec failed; (1) SQL logic error
+[2021-05-22 19:47:04] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 19:47:04] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 19:47:17] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 19:47:17] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 19:49:27] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-22 19:49:39] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 19:49:45] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 19:50:02] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 19:50:02] Stopping vehicles
+[2021-05-22 19:50:03] Starting vehicles
+[2021-05-22 19:50:03] vehicles restarted successfully
+[2021-05-22 19:50:13] ERROR: velocimetro\speedo_S.lua:84: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-22 19:50:19] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 19:50:19] Stopping vehicles
+[2021-05-22 19:50:19] Starting vehicles
+[2021-05-22 19:50:19] vehicles restarted successfully
+[2021-05-22 19:50:23] ERROR: velocimetro\speedo_S.lua:84: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-22 19:50:30] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 19:50:30] Stopping vehicles
+[2021-05-22 19:50:30] Starting vehicles
+[2021-05-22 19:50:30] vehicles restarted successfully
+[2021-05-22 19:50:35] ERROR: velocimetro\speedo_S.lua:84: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-22 19:55:43] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 19:55:43] Stopping vehicles
+[2021-05-22 19:55:43] Resource 'vehicles' changed, reloading and starting
+[2021-05-22 19:55:43] WARNING: vehicles/vehicles.lua(Line 35) [Server] getPlayerOccupiedVehicle is deprecated and may not work in future versions. Please replace with getPedOccupiedVehicle.
+[2021-05-22 19:55:43] Some files in 'vehicles' use deprecated functions.
+[2021-05-22 19:55:43] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 19:55:43] Starting vehicles
+[2021-05-22 19:55:43] vehicles restarted successfully
+[2021-05-22 19:55:45] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:55:45] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:55:45] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:55:45] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:55:45] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:55:47] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:55:47] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:55:47] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:55:47] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:55:47] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:10] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 19:56:10] Stopping vehicles
+[2021-05-22 19:56:10] Resource 'vehicles' changed, reloading and starting
+[2021-05-22 19:56:10] Starting vehicles
+[2021-05-22 19:56:10] vehicles restarted successfully
+[2021-05-22 19:56:11] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:11] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:11] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:11] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:11] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:15] ERROR: velocimetro\speedo_S.lua:84: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-22 19:56:16] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:16] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:16] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:16] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:16] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:19] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:19] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:19] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:19] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:19] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:21] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:21] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:21] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:21] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:21] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:27] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:27] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:27] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:27] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:27] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:56:35] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:35] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:35] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:56:35] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:56:35] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:57:13] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:13] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:13] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:57:15] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:17] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:17] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:57:17] WARNING: velocimetro\speedo_S.lua:201: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:17] WARNING: velocimetro\speedo_S.lua:202: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:17] ERROR: velocimetro\speedo_S.lua:203: attempt to concatenate local 'vehiclename' (a boolean value)
+[2021-05-22 19:57:26] WARNING: velocimetro\speedo_S.lua:229: Bad argument @ 'getVehicleOverrideLights' [Expected vehicle at argument 1]
+[2021-05-22 19:57:26] WARNING: velocimetro\speedo_S.lua:230: Bad argument @ 'setVehicleOverrideLights' [Expected element at argument 1]
+[2021-05-22 19:57:40] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:40] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:40] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:40] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:40] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 19:57:43] CHAT: Arian_Calabrese: asd
+[2021-05-22 19:57:44] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:44] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:44] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 19:57:44] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 19:57:44] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 20:03:23] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 20:03:23] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 20:03:23] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 20:03:23] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 20:03:23] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 20:05:25] WARNING: velocimetro\speedo_S.lua:153: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 20:05:25] WARNING: velocimetro\speedo_S.lua:154: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 20:05:25] WARNING: velocimetro\speedo_S.lua:174: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-22 20:05:25] WARNING: velocimetro\speedo_S.lua:175: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-22 20:05:25] ERROR: velocimetro\speedo_S.lua:179: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-22 20:09:08] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:09:08] Stopping vehicles
+[2021-05-22 20:09:08] Resource 'vehicles' changed, reloading and starting
+[2021-05-22 20:09:08] Starting vehicles
+[2021-05-22 20:09:08] vehicles restarted successfully
+[2021-05-22 20:09:11] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:09:11] Stopping velocimetro
+[2021-05-22 20:09:11] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:09:11] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:09:11] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:09:11] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:09:11] Starting velocimetro
+[2021-05-22 20:09:11] velocimetro restarted successfully
+[2021-05-22 20:09:14] WARNING: vehicles\vehicles.lua:25: Bad argument @ 'createVehicle' [Expected number at argument 1, got nil]
+[2021-05-22 20:09:14] WARNING: vehicles\vehicles.lua:24: dbExec failed; (1) SQL logic error
+[2021-05-22 20:09:14] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 20:09:14] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 20:09:20] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 20:09:20] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 20:15:41] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:15:41] Stopping velocimetro
+[2021-05-22 20:15:41] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:15:41] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:15:41] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:15:41] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:15:41] Starting velocimetro
+[2021-05-22 20:15:41] velocimetro restarted successfully
+[2021-05-22 20:16:58] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:16:58] Stopping velocimetro
+[2021-05-22 20:16:58] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:16:58] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:16:58] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:16:58] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:16:58] Starting velocimetro
+[2021-05-22 20:16:58] velocimetro restarted successfully
+[2021-05-22 20:17:06] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 20:17:06] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 20:33:07] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-22 20:33:07] ERROR: velocimetro\speedo_S.lua:101: Bad argument @ 'removeElementData' [Expected element at argument 1, got nil]
+[2021-05-22 20:33:23] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-22 20:33:24] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-22 20:33:29] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-22 20:33:45] WARNING: vehicles\vehicles.lua:27: dbPoll failed; near "vehicles": syntax error
+[2021-05-22 20:33:45] ERROR: vehicles\vehicles.lua:28: attempt to index local 'results' (a boolean value)
+[2021-05-22 20:34:09] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-22 20:34:23] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:23] Stopping velocimetro
+[2021-05-22 20:34:23] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:23] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:34:23] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:23] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:23] Starting velocimetro
+[2021-05-22 20:34:23] velocimetro restarted successfully
+[2021-05-22 20:34:30] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:30] Stopping velocimetro
+[2021-05-22 20:34:30] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:30] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-22 20:34:30] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:30] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:30] Starting velocimetro
+[2021-05-22 20:34:30] velocimetro restarted successfully
+[2021-05-22 20:34:35] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:35] Stopping velocimetro
+[2021-05-22 20:34:35] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:35] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-22 20:34:35] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:35] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:35] Starting velocimetro
+[2021-05-22 20:34:35] velocimetro restarted successfully
+[2021-05-22 20:34:39] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:39] Stopping velocimetro
+[2021-05-22 20:34:39] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:39] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-22 20:34:39] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:39] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:39] Starting velocimetro
+[2021-05-22 20:34:39] velocimetro restarted successfully
+[2021-05-22 20:34:43] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:43] Stopping velocimetro
+[2021-05-22 20:34:43] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:43] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-22 20:34:43] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:43] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:43] Starting velocimetro
+[2021-05-22 20:34:43] velocimetro restarted successfully
+[2021-05-22 20:34:49] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:34:49] Stopping velocimetro
+[2021-05-22 20:34:49] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:34:49] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-22 20:34:49] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:34:49] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:34:49] Starting velocimetro
+[2021-05-22 20:34:49] velocimetro restarted successfully
+[2021-05-22 20:36:09] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:36:09] Stopping velocimetro
+[2021-05-22 20:36:09] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:36:09] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:36:09] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:36:09] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:36:09] Starting velocimetro
+[2021-05-22 20:36:09] velocimetro restarted successfully
+[2021-05-22 20:38:00] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:38:00] Stopping velocimetro
+[2021-05-22 20:38:00] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:38:00] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:38:00] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:38:00] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:38:00] Starting velocimetro
+[2021-05-22 20:38:00] velocimetro restarted successfully
+[2021-05-22 20:39:05] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:39:05] Stopping velocimetro
+[2021-05-22 20:39:05] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:39:05] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:39:05] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:39:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:39:05] Starting velocimetro
+[2021-05-22 20:39:05] velocimetro restarted successfully
+[2021-05-22 20:40:28] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-22 20:41:12] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:41:12] Stopping velocimetro
+[2021-05-22 20:41:12] Resource 'velocimetro' changed, reloading and starting
+[2021-05-22 20:41:12] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-22 20:41:12] Some files in 'velocimetro' use deprecated functions.
+[2021-05-22 20:41:12] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-22 20:41:12] Starting velocimetro
+[2021-05-22 20:41:12] velocimetro restarted successfully
+[2021-05-22 20:42:14] start: Requested by Arian_Calabrese(Arian)
+[2021-05-22 20:42:14] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-22 20:42:14] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-22 20:42:14] Starting modloader
+[2021-05-22 20:42:15] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-22 20:42:15] INFO: It's reccomanded to change the name to something unique.
+[2021-05-22 20:42:15] INFO: Please read the readme for more information.
+[2021-05-22 20:42:16] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-22 20:42:31] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-22 20:42:49] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-22 23:47:38] CHAT: Arian_Calabrese: iii
+[2021-05-22 23:52:40] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Pershing Square
+[2021-05-22 23:53:07] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Turismo'" 
+[2021-05-22 23:56:58] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 00:00:05] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:00:05] Stopping velocimetro
+[2021-05-23 00:00:05] Resource 'velocimetro' changed, reloading and starting
+[2021-05-23 00:00:05] WARNING: velocimetro/speedo_S.lua(Line 57) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-23 00:00:05] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 00:00:05] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 00:00:05] Starting velocimetro
+[2021-05-23 00:00:05] velocimetro restarted successfully
+[2021-05-23 00:07:25] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:07:25] Stopping velocimetro
+[2021-05-23 00:07:25] Resource 'velocimetro' changed, reloading and starting
+[2021-05-23 00:07:25] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-23 00:07:25] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 00:07:25] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 00:07:25] Starting velocimetro
+[2021-05-23 00:07:25] velocimetro restarted successfully
+[2021-05-23 00:23:13] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:23:13] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:23:13] Starting chat
+[2021-05-23 00:23:15] WARNING: chat\chat_c.lua:141: Bad argument @ 'outputChatBox' [Expected element at argument 2, got number '255']
+[2021-05-23 00:23:46] restart: Requested by Console
+[2021-05-23 00:23:46] restart: Resource restarting...
+[2021-05-23 00:23:46] Stopping vehicles
+[2021-05-23 00:23:46] Resource 'vehicles' changed, reloading and starting
+[2021-05-23 00:23:46] Starting vehicles
+[2021-05-23 00:23:46] vehicles restarted successfully
+[2021-05-23 00:23:53] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:23:53] Stopping chat
+[2021-05-23 00:23:53] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:23:53] Starting chat
+[2021-05-23 00:23:53] chat restarted successfully
+[2021-05-23 00:31:50] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:31:50] Stopping chat
+[2021-05-23 00:31:51] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:31:51] Starting chat
+[2021-05-23 00:31:51] chat restarted successfully
+[2021-05-23 00:32:34] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:32:34] Stopping chat
+[2021-05-23 00:32:34] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:32:34] Starting chat
+[2021-05-23 00:32:34] chat restarted successfully
+[2021-05-23 00:34:50] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:34:50] Stopping chat
+[2021-05-23 00:34:50] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:34:50] Starting chat
+[2021-05-23 00:34:50] chat restarted successfully
+[2021-05-23 00:35:16] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:35:16] Stopping chat
+[2021-05-23 00:35:16] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:35:16] Starting chat
+[2021-05-23 00:35:16] chat restarted successfully
+[2021-05-23 00:35:17] ERROR: chat\chat_c.lua:34: attempt to call field 'ACCENT' (a string value)
+[2021-05-23 00:35:17] CHAT: Arian_Calabrese: asd
+[2021-05-23 00:35:38] ERROR: chat\chat_c.lua:34: attempt to call field 'ACCENT' (a string value)
+[2021-05-23 00:35:38] CHAT: Arian_Calabrese: asd
+[2021-05-23 00:35:39] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:35:39] Stopping chat
+[2021-05-23 00:35:39] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:35:39] Starting chat
+[2021-05-23 00:35:39] chat restarted successfully
+[2021-05-23 00:36:06] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:36:06] Stopping chat
+[2021-05-23 00:36:06] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:36:06] Starting chat
+[2021-05-23 00:36:06] chat restarted successfully
+[2021-05-23 00:37:15] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:37:15] Stopping chat
+[2021-05-23 00:37:15] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:37:15] Starting chat
+[2021-05-23 00:37:15] chat restarted successfully
+[2021-05-23 00:37:35] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:37:35] Stopping chat
+[2021-05-23 00:37:35] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:37:35] Starting chat
+[2021-05-23 00:37:35] chat restarted successfully
+[2021-05-23 00:38:15] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:38:15] Stopping chat
+[2021-05-23 00:38:15] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:38:15] Starting chat
+[2021-05-23 00:38:15] chat restarted successfully
+[2021-05-23 00:39:39] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:39:39] Stopping chat
+[2021-05-23 00:39:39] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:39:39] Starting chat
+[2021-05-23 00:39:39] chat restarted successfully
+[2021-05-23 00:39:55] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:39:55] Stopping chat
+[2021-05-23 00:39:55] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:39:55] Starting chat
+[2021-05-23 00:39:55] chat restarted successfully
+[2021-05-23 00:40:16] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 00:40:16] Stopping chat
+[2021-05-23 00:40:16] Resource 'chat' changed, reloading and starting
+[2021-05-23 00:40:16] Starting chat
+[2021-05-23 00:40:16] chat restarted successfully
+[2021-05-23 00:41:02] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Buffalo'" 
+[2021-05-23 00:42:07] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 00:42:44] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 00:43:23] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese (1010, 1087)
+[2021-05-23 00:43:36] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 00:43:55] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 00:44:10] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 00:49:28] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 00:50:28] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Phoenix'" 
+[2021-05-23 00:51:51] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Broadway'" 
+[2021-05-23 00:52:30] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 00:55:35] Server stopped!
+[2021-05-23 00:55:35] Stopping resources........
+[2021-05-23 00:55:35] ERROR: vehicles\vehicles.lua:38: exports: Call to non-running server resource (db) [string "?"]
+[2021-05-23 00:55:35] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2021-05-23 00:55:35] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x15]
+[2021-05-23 00:55:35] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-23 12:06:53] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-23 12:06:54] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 12:06:54] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 12:06:54] Resources: 17 loaded, 2 failed
+[2021-05-23 12:06:54] Starting resources....
+[2021-05-23 12:06:54] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-23 12:06:54] WARNING: velocimetro/speedo_S.lua(Line 58) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-23 12:06:54] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 12:06:54] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 12:06:54] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-23 12:06:54] WARNING: <owner_email_address> not set
+[2021-05-23 12:06:54] Server started and is ready to accept connections!
+[2021-05-23 12:06:54] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-23 12:06:54] Type 'help' for a list of commands.
+[2021-05-23 12:06:56] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-23 12:14:23] restart: Requested by Console
+[2021-05-23 12:14:23] restart: Resource restarting...
+[2021-05-23 12:14:23] Stopping players
+[2021-05-23 12:14:23] Resource 'players' changed, reloading and starting
+[2021-05-23 12:14:23] Starting players
+[2021-05-23 12:14:23] players restarted successfully
+[2021-05-23 12:14:42] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:14:43] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:14:43] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:14:43] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:14:54] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:14:55] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:14:55] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:14:55] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:14:55] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:15:41] restart: Requested by Console
+[2021-05-23 12:15:41] restart: Resource restarting...
+[2021-05-23 12:15:41] Stopping players
+[2021-05-23 12:15:41] Resource 'players' changed, reloading and starting
+[2021-05-23 12:15:41] Starting players
+[2021-05-23 12:15:41] players restarted successfully
+[2021-05-23 12:15:43] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:15:44] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:15:44] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:15:44] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:15:50] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:15:50] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:15:51] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:15:51] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:15:51] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:15:51] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:16:50] restart: Requested by Console
+[2021-05-23 12:16:50] restart: Resource restarting...
+[2021-05-23 12:16:50] Stopping players
+[2021-05-23 12:16:50] Resource 'players' changed, reloading and starting
+[2021-05-23 12:16:50] Starting players
+[2021-05-23 12:16:50] players restarted successfully
+[2021-05-23 12:16:54] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:16:55] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:16:55] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:16:55] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:16:55] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:23:06] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:23:07] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:23:08] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:23:08] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:23:14] WARNING: players\players.lua:21: Access denied @ 'kickPlayer'
+[2021-05-23 12:24:39] restart: Requested by Console
+[2021-05-23 12:24:39] restart: Resource restarting...
+[2021-05-23 12:24:39] Stopping players
+[2021-05-23 12:24:39] Resource 'players' changed, reloading and starting
+[2021-05-23 12:24:39] Starting players
+[2021-05-23 12:24:39] players restarted successfully
+[2021-05-23 12:34:05] New resource 'job_pizza' loaded
+[2021-05-23 12:34:05] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 12:34:05] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 12:34:05] Resources: 18 loaded, 2 failed
+[2021-05-23 12:34:12] QUIT: Arian_Calabrese29 left the game [Quit]
+[2021-05-23 12:34:13] CONNECT: Arian_Calabrese29 connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:34:13] JOIN: Arian_Calabrese29 joined the game (IP: 192.168.0.103)
+[2021-05-23 12:34:13] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 12:34:18] LOGIN: (Everyone, Admin) Arian_Calabrese29 successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-23 12:35:11] start: Requested by Arian_Calabrese29(Arian)
+[2021-05-23 12:35:11] Starting job_pizza
+[2021-05-23 12:35:15] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 12:35:33] NICK: Arian_Calabrese29 is now known as Arian_Calabrese
+[2021-05-23 12:35:36] CHAT: Arian_Calabrese: asd
+[2021-05-23 12:36:02] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Downtown
+[2021-05-23 12:36:07] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Banshee'" 
+[2021-05-23 12:37:07] WARNING: vehicles\vehicles.lua:10: dbPoll failed; near "vehicles": syntax error
+[2021-05-23 12:37:07] ERROR: vehicles\vehicles.lua:11: attempt to index local 'results' (a boolean value)
+[2021-05-23 12:37:52] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Red County
+[2021-05-23 12:37:54] ERROR: velocimetro\speedo_S.lua:102: Bad argument @ 'removeElementData' [Expected element at argument 1, got nil]
+[2021-05-23 12:38:07] ADMIN: Arian_Calabrese has moved Arian_Calabrese to King's
+[2021-05-23 12:38:26] ADMIN: Arian_Calabrese has set Arian_Calabrese's money to 55000
+[2021-05-23 12:39:57] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:39:57] Stopping velocimetro
+[2021-05-23 12:40:25] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:40:25] Stopping job_pizza
+[2021-05-23 12:40:25] Starting job_pizza
+[2021-05-23 12:40:25] job_pizza restarted successfully
+[2021-05-23 12:44:04] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-23 12:44:09] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Banshee'" 
+[2021-05-23 12:47:02] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:47:02] Stopping job_pizza
+[2021-05-23 12:47:02] Resource 'job_pizza' changed, reloading and starting
+[2021-05-23 12:47:02] Starting job_pizza
+[2021-05-23 12:47:02] job_pizza restarted successfully
+[2021-05-23 12:48:07] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-23 12:48:08] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 12:48:08] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-23 12:48:14] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-23 12:48:18] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:48:18] Stopping job_pizza
+[2021-05-23 12:48:18] Resource 'job_pizza' changed, reloading and starting
+[2021-05-23 12:48:18] Starting job_pizza
+[2021-05-23 12:48:18] job_pizza restarted successfully
+[2021-05-23 12:49:23] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 12:50:16] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:50:16] Stopping job_pizza
+[2021-05-23 12:50:16] Resource 'job_pizza' changed, reloading and starting
+[2021-05-23 12:50:16] Starting job_pizza
+[2021-05-23 12:50:16] job_pizza restarted successfully
+[2021-05-23 12:52:02] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:52:09] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 12:52:09] Stopping job_pizza
+[2021-05-23 12:52:09] Starting job_pizza
+[2021-05-23 12:52:09] job_pizza restarted successfully
+[2021-05-23 13:03:55] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 13:03:55] Stopping job_pizza
+[2021-05-23 13:03:55] Resource 'job_pizza' changed, reloading and starting
+[2021-05-23 13:03:55] Starting job_pizza
+[2021-05-23 13:03:55] job_pizza restarted successfully
+[2021-05-23 13:04:10] ADMIN: Arian_Calabrese has moved Arian_Calabrese to El Corona
+[2021-05-23 13:04:52] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 13:04:52] Stopping job_pizza
+[2021-05-23 13:04:52] Starting job_pizza
+[2021-05-23 13:04:52] job_pizza restarted successfully
+[2021-05-23 13:07:29] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-23 13:07:41] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-23 13:07:55] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-23 13:08:33] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 13:08:33] Stopping job_pizza
+[2021-05-23 13:11:48] New resource 'job_trucker' loaded
+[2021-05-23 13:11:48] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 13:11:48] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 13:11:48] Resources: 19 loaded, 2 failed
+[2021-05-23 13:11:50] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 13:11:50] Starting job_trucker
+[2021-05-23 13:12:11] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Blueberry Acres
+[2021-05-23 13:15:38] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 13:15:38] Stopping job_trucker
+[2021-05-23 13:15:38] Resource 'job_trucker' changed, reloading and starting
+[2021-05-23 13:15:38] Starting job_trucker
+[2021-05-23 13:15:38] job_trucker restarted successfully
+[2021-05-23 13:23:46] CHAT: Arian_Calabrese: uyt
+[2021-05-23 13:24:20] ADMIN: Arian_Calabrese has moved Arian_Calabrese to the Trucker team
+[2021-05-23 14:31:26] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:31:26] Stopping job_trucker
+[2021-05-23 14:31:26] Starting job_trucker
+[2021-05-23 14:31:26] job_trucker restarted successfully
+[2021-05-23 14:36:35] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:36:35] Stopping job_trucker
+[2021-05-23 14:37:30] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:37:30] Starting job_trucker
+[2021-05-23 14:37:35] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:37:35] Stopping job_trucker
+[2021-05-23 14:37:37] Resource 'job_trucker' has been removed, unloading
+[2021-05-23 14:37:37] New resource 'job-trucker' loaded
+[2021-05-23 14:37:37] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 14:37:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 14:37:37] Resources: 19 loaded, 2 failed
+[2021-05-23 14:41:37] Resource 'job-trucker' has been removed, unloading
+[2021-05-23 14:41:37] New resource 'job_trucker' loaded
+[2021-05-23 14:41:37] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 14:41:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 14:41:37] Resources: 19 loaded, 2 failed
+[2021-05-23 14:41:40] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:41:40] Starting job_trucker
+[2021-05-23 14:41:56] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:41:56] Stopping job_trucker
+[2021-05-23 14:41:56] Starting job_trucker
+[2021-05-23 14:41:56] job_trucker restarted successfully
+[2021-05-23 14:42:29] ADMIN: Arian_Calabrese has moved Arian_Calabrese to the Trucker team
+[2021-05-23 14:42:59] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Ocean Docks
+[2021-05-23 14:44:43] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Easter Bay Airport
+[2021-05-23 14:46:19] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 14:52:18] ADMIN: Arian_Calabrese has moved Arian_Calabrese to El Corona
+[2021-05-23 14:56:15] New resource 'job_taxista' loaded
+[2021-05-23 14:56:15] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 14:56:15] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 14:56:15] Resources: 20 loaded, 2 failed
+[2021-05-23 14:56:23] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:56:23] Stopping job_trucker
+[2021-05-23 14:56:28] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 14:56:28] Starting job_taxista
+[2021-05-23 14:56:28] DIAGNOSTIC: Arian_Calabrese #1013 HTTP server file mismatch! (job_taxista) Mission Accomplished.mp3 [Got size:55 MD5:8D90FFA9DF5843E27FB4BCEFC1253555, wanted MD5:DA2BAEECA1A60BC46394014B5D5FFFB4]
+[2021-05-23 14:56:58] WARNING: [jobs]\job_taxista\taxi_s.lua:131: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2021-05-23 14:57:22] WARNING: [jobs]\job_taxista\taxi_s.lua:131: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2021-05-23 15:06:11] New resource 'job_pilot' loaded
+[2021-05-23 15:06:11] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 15:06:11] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 15:06:11] Resources: 21 loaded, 2 failed
+[2021-05-23 15:06:22] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:06:22] Stopping job_taxista
+[2021-05-23 15:06:30] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:06:30] WARNING: job_pilot/PilotJob.lua(Line 42) [Server] setPlayerSkin is deprecated and may not work in future versions. Please replace with setElementModel.
+[2021-05-23 15:06:30] WARNING: job_pilot/PilotJob.lua(Line 69) [Server] getPlayerOccupiedVehicle is deprecated and may not work in future versions. Please replace with getPedOccupiedVehicle.
+[2021-05-23 15:06:30] WARNING: job_pilot/Vehicles.lua(Line 23) [Server] getPlayerSkin is deprecated and may not work in future versions. Please replace with getElementModel.
+[2021-05-23 15:06:30] Some files in 'job_pilot' use deprecated functions.
+[2021-05-23 15:06:30] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 15:06:30] Starting job_pilot
+[2021-05-23 15:06:30] WARNING: [jobs]\job_pilot\PilotJob.lua:126: Bad argument @ 'addEventHandler' [Expected element at argument 2, got function]
+[2021-05-23 15:06:51] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Los Santos International
+[2021-05-23 15:07:09] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Los Santos International
+[2021-05-23 15:09:58] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 15:10:16] WARNING: [jobs]\job_pilot\PilotJob.lua:69: Bad argument @ 'getPlayerOccupiedVehicle' [Expected ped at argument 1, got vehicle]
+[2021-05-23 15:10:20] WARNING: [jobs]\job_pilot\PilotJob.lua:76: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:10:20] WARNING: [jobs]\job_pilot\PilotJob.lua:77: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:10:26] WARNING: [jobs]\job_pilot\PilotJob.lua:69: Bad argument @ 'getPlayerOccupiedVehicle' [Expected ped at argument 1, got vehicle]
+[2021-05-23 15:10:33] WARNING: [jobs]\job_pilot\PilotJob.lua:76: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:10:33] WARNING: [jobs]\job_pilot\PilotJob.lua:77: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:10:33] WARNING: [jobs]\job_pilot\PilotJob.lua:69: Bad argument @ 'getPlayerOccupiedVehicle' [Expected ped at argument 1, got vehicle]
+[2021-05-23 15:12:38] WARNING: [jobs]\job_pilot\PilotJob.lua:84: Bad argument @ 'getPlayerOccupiedVehicle' [Expected ped at argument 1, got vehicle]
+[2021-05-23 15:13:37] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:13:37] WARNING: gtavradar/render.lua(Line 69) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2021-05-23 15:13:37] WARNING: gtavradar/render.lua(Line 186) [Client] isPedInWater is deprecated and may not work in future versions. Please replace with isElementInWater.
+[2021-05-23 15:13:37] Some files in 'gtavradar' use deprecated functions.
+[2021-05-23 15:13:37] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 15:13:37] Starting gtavradar
+[2021-05-23 15:13:54] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:13:54] Stopping gtavradar
+[2021-05-23 15:14:01] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:14:01] Starting gtavradar
+[2021-05-23 15:14:33] WARNING: [jobs]\job_pilot\PilotJob.lua:98: Bad argument @ 'getPlayerOccupiedVehicle' [Expected ped at argument 1, got vehicle]
+[2021-05-23 15:15:45] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:15:45] Stopping job_pilot
+[2021-05-23 15:15:56] New resource 'job_colectivero' loaded
+[2021-05-23 15:15:56] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 15:15:56] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 15:15:56] Resources: 22 loaded, 2 failed
+[2021-05-23 15:15:59] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 15:15:59] Starting job_colectivero
+[2021-05-23 15:16:13] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Los Santos International
+[2021-05-23 15:17:15] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Bayside
+[2021-05-23 15:17:51] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Los Santos International
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:67: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:68: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:69: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:70: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:71: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:18:22] WARNING: [jobs]\job_colectivero\s.lua:72: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:19:07] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 15:19:07] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 15:19:14] WARNING: [jobs]\job_colectivero\s.lua:99: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:19:14] WARNING: [jobs]\job_colectivero\s.lua:100: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 15:19:14] WARNING: [jobs]\job_colectivero\s.lua:101: Bad argument @ 'destroyElement' [Expected element at argument 1]
+[2021-05-23 16:45:49] Server stopped!
+[2021-05-23 16:45:49] Stopping resources.......
+[2021-05-23 16:45:49] ERROR: vehicles\vehicles.lua:38: exports: Call to non-running server resource (db) [string "?"]
+[2021-05-23 16:45:49] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2021-05-23 16:45:49] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x16]
+[2021-05-23 16:45:49] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-23 19:02:06] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-23 19:02:06] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 19:02:06] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 19:02:06] Resources: 22 loaded, 2 failed
+[2021-05-23 19:02:06] Starting resources....
+[2021-05-23 19:02:06] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-23 19:02:06] WARNING: velocimetro/speedo_S.lua(Line 58) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-23 19:02:06] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 19:02:06] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 19:02:06] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-23 19:02:06] WARNING: <owner_email_address> not set
+[2021-05-23 19:02:06] Server started and is ready to accept connections!
+[2021-05-23 19:02:06] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-23 19:02:06] Type 'help' for a list of commands.
+[2021-05-23 19:02:07] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-23 19:31:55] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 19:31:55] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 19:32:00] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 19:32:01] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-23 19:32:01] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 19:32:07] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-23 19:32:13] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 19:32:13] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 19:32:13] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 19:32:13] Starting modloader
+[2021-05-23 19:32:13] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 19:32:13] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 19:32:13] INFO: Please read the readme for more information.
+[2021-05-23 19:32:15] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 19:34:27] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 19:34:27] Stopping modloader
+[2021-05-23 19:34:27] Starting modloader
+[2021-05-23 19:34:27] modloader restarted successfully
+[2021-05-23 19:34:27] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 19:34:27] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 19:34:27] INFO: Please read the readme for more information.
+[2021-05-23 19:34:28] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 19:34:40] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 19:34:40] Stopping modloader
+[2021-05-23 19:36:36] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 19:36:41] ADMIN: Arian_Calabrese has given a jetpack to Arian_Calabrese
+[2021-05-23 19:37:29] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 19:37:29] Starting modloader
+[2021-05-23 19:37:29] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 19:37:29] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 19:37:29] INFO: Please read the readme for more information.
+[2021-05-23 19:37:31] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 19:46:27] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 19:46:27] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 19:48:24] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 19:48:24] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 19:53:13] CONNECT: Tomas_Mastikovich connected (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794  Version: 1.5.8-9.20845.0)
+[2021-05-23 19:53:16] JOIN: Tomas_Mastikovich joined the game (IP: 45.184.230.190)
+[2021-05-23 19:53:16] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 19:53:52] == Resource list ==
+[2021-05-23 19:53:52] Resources: 24 loaded, 0 failed, 6 running
+[2021-05-23 20:00:05] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-23 20:10:13] INFO: modloader server: Player Tomas_Mastikovich requested replacing
