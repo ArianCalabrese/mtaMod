@@ -1,0 +1,5 @@
+<meta>
+    <info author="SuperCroz" type="script" version="1.0.0"></info>
+	<script src="PilotJob.lua" type="server"></script>
+	<script src="Vehicles.lua" type="server"></script>
+	</meta>

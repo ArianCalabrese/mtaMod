@@ -5,7 +5,8 @@ local COLORS = {
     ["ME"] = "#CC97F2",
     ["DO"] = "#9EC73D",
     ["S"] = "#FAD98C",
-    ["B"] = "#9C9C9C"
+    ["B"] = "#9C9C9C",
+    ["ACCENT"] = "#BABABA"
 }
 
 -- new Float: AccionesRadios[20] = {
@@ -29,7 +30,8 @@ function chatNormalME(mensaje, tipoMensaje)
             if getDistanceBetweenPoints3D(x, y, z, x2, y2, z2) <= distanciaChat then
                 if getElementDimension(source) == getElementDimension(v) then
                     if accent then
-                        outputChatBox(accent .. "" .. sourceName .. " dice: " .. mensaje .. ".", v, 255, 255, 255, false)
+                        outputChatBox(COLORS["ACCENT"] .. "((Acento " .. accent .. ")) #FFFFFF" .. sourceName ..
+                                          " dice: " .. mensaje .. ".", v, 255, 255, 255, true)
 
                     else
                         outputChatBox("" .. sourceName .. " dice: " .. mensaje .. ".", v, 255, 255, 255, false)
@@ -133,3 +135,31 @@ function chatOOC(player, cmd, ...)
     end
 end
 addCommandHandler("b", chatOOC)
+
+-- Accents:
+
+function acento(player, cmd, acento)
+    local acentos = {
+        ["argentino"] = "argentino",
+        ["colombiano"] = "colombiano",
+        ["ruso"] = "ruso",
+        ["ingles"] = "ingles",
+        ["estadounidense"] = "estadounidense"
+    }
+    if not acento then
+        return outputChatBox("SYNTAX: Usar /" .. cmd .. " [acento] para usar un acento. Utilice /" .. cmd ..
+                                 " lista para ver todos los acentos disponibles", player, 255, 255, 255, false)
+    end
+    if acento == "lista" then
+        return outputChatBox("Acentos disponibles: \n Argentino, Colombiano, Ruso, Ingles, Estadounidense", player, 255,
+                   255, 255, false)
+    end
+    if not acentos[string.lower(acento)] then
+        return outputChatBox("Error! El acento introducido no esta disponible. Pruebe utilizando /" .. cmd ..
+                                 " lista para ver todos los acentos disponibles", player, 255, 100, 100, false)
+    end
+    local account = getPlayerAccount(player)
+    setAccountData(account, "accent", acento)
+    return outputChatBox("Acento actualizado con exito!", player, 100, 255, 100, false)
+end
+addCommandHandler("acento", acento)

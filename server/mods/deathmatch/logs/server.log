@@ -7580,3 +7580,21 @@ debuguptime              sfakelag
 [2021-05-23 19:53:52] Resources: 24 loaded, 0 failed, 6 running
 [2021-05-23 20:00:05] QUIT: Arian_Calabrese left the game [Quit]
 [2021-05-23 20:10:13] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:12:11] QUIT: Tomas_Mastikovich left the game [Quit]
+[2021-05-23 20:12:13] CONNECT: Tomas_Mastikovich connected (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794  Version: 1.5.8-9.20845.0)
+[2021-05-23 20:12:13] JOIN: Tomas_Mastikovich joined the game (IP: 45.184.230.190)
+[2021-05-23 20:12:13] WARNING: velocimetro\speedo_S.lua:22: Bad argument @ 'bindKey' [Expected function at argument 4, got nil]
+[2021-05-23 20:12:16] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:12:21] LOGIN: (Everyone, Admin) Tomas_Mastikovich successfully logged in as 'Tomasito' (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794)
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:67: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got boolean]
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:68: Bad argument @ 'setElementRotation' [Expected number at argument 4, got boolean]
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:73: Bad argument @ 'setElementHealth' [Expected number at argument 2, got boolean]
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:74: Bad argument @ 'setPedArmor' [Expected number at argument 2, got boolean]
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:75: Bad argument @ 'setPlayerMoney' [Expected number at argument 2, got boolean]
+[2021-05-23 20:12:21] WARNING: players\authentication.lua:76: Bad argument @ 'setElementModel' [Expected number at argument 2, got boolean]
+[2021-05-23 20:12:42] Server stopped!
+[2021-05-23 20:12:42] Stopping resources.......
+[2021-05-23 20:12:42] ERROR: vehicles\vehicles.lua:38: exports: Call to non-running server resource (db) [string "?"]
+[2021-05-23 20:12:42] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2021-05-23 20:12:42] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x16]
+[2021-05-23 20:12:42] Closing SQLite3 database
