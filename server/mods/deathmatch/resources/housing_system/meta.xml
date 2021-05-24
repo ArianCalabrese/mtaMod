@@ -1,0 +1,8 @@
+<meta>
+  <info author="TurboCow, JasperNL=D" name="Housing System" version="1.4.0" type="script"/>
+	<script src="server.lua" type="server"/>
+	<script src="gui.lua" type="client"/>
+
+	<file src="home.jpeg" />
+	<file src="housesystem.png" />
+</meta>

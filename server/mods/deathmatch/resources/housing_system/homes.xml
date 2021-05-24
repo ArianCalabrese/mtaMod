@@ -1,0 +1,37 @@
+<homes>
+    <houses>
+        <house dim="0" interior="1" num="0" x="2260.2143554688" y="-1394.7037353516" z="24" lx="2256.5815429688" ly="-1397.2418212891" lz="24.573816299438" cost="50000" owner="mR|TurboCow" street="East Los Santos" sellprice="25000" lockStatus="lock" />
+        <house dim="1" interior="1" num="1" x="2247.744140625" y="-1394.7790527344" z="24" lx="2243.4626464844" ly="-1397.2219238281" lz="24.573816299438" cost="50000" owner="mR|TurboCow" street="East Los Santos" sellprice="25000" lockStatus="unlock" />
+        <house dim="2" interior="1" num="2" x="2232.66015625" y="-1394.7712402344" z="24" lx="2230.3618164063" ly="-1397.2426757813" lz="24.573816299438" cost="50000" owner="" street="East Los Santos" sellprice="25000" lockStatus="unlock" />
+        <house dim="3" interior="0" num="3" x="2495.3610839844" y="-1690.7628173828" z="14.765625" lx="2495.3610839844" ly="-1690.7628173828" lz="14.765625" cost="250000" owner="" street="Calle 49" sellprice="300000" lockStatus="unlock"></house>
+        <house dim="4" interior="1" num="4" x="2522.6320800781" y="-1679.1613769531" z="15.496999740601" lx="2515.029296875" ly="-1676.5689697266" lz="13.784395217896" cost="12000" owner="Arian" street="Calle 49" sellprice="15000" lockStatus="unlock"></house>
+    </houses>
+    <interiors>
+        <interior num="0" id="3" x="2496.02" y="-1692.10" z="1014.74" />
+        <interior num="1" id="1" x="223.22" y="1287.27" z="1082.14" />
+        <interior num="2" id="4" x="260.98" y="1284.55" z="1080.25" />
+        <interior num="3" id="5" x="140.21" y="1366.91" z="1083.85" />
+        <interior num="4" id="9" x="82.94" y="1322.44" z="1083.86" />
+        <interior num="5" id="15" x="-283.85" y="1470.96" z="1084.375" />
+        <interior num="6" id="4" x="-260.60" y="1456.62" z="1084.37" />
+        <interior num="7" id="8" x="-42.78" y="1405.75" z="1084.43" />
+        <interior num="8" id="6" x="-68.69" y="1351.97" z="1080.21" />
+        <interior num="9" id="6" x="2333.05" y="-1077.14" z="1049.02" />
+        <interior num="10" id="5" x="2233.77" y="-1115.03" z="1050.88" />
+        <interior num="11" id="8" x="2365.30" y="-1134.92" z="1050.875" />
+        <interior num="12" id="11" x="2282.91" y="-1140.29" z="1050.90" />
+        <interior num="13" id="6" x="2196.79" y="-1204.35" z="1049.02" />
+        <interior num="14" id="10" x="2270.38" y="-1210.45" z="1047.56" />
+        <interior num="15" id="6" x="2308.79" y="-1212.88" z="1049.02" />
+        <interior num="16" id="1" x="2218.39" y="-1076.25" z="1050.48" />
+        <interior num="17" id="2" x="2237.52" y="-1081.64" z="1049.02" />
+        <interior num="18" id="9" x="2317.84" y="-1026.76" z="1050.21" />
+        <interior num="19" id="5" x="318.60" y="1114.48" z="1083.88" />
+        <interior num="20" id="5" x="1298.85" y="-797.01" z="1084.01" />
+        <interior num="21" id="1" x="-794.99" y="489.29" z="1376.20" />
+        <interior num="22" id="18" x="1727.04" y="-1637.84" z="20.22" />
+        <interior num="23" id="18" x="-31.03515625" y="-91.6103515625" z="1003.546875" />
+        <interior num="24" id="6" x="-26.689453125" y="-57.8095703125" z="1003.546875" />
+        <interior num="25" id="15" x="2215.04296875" y="-1150.5546875" z="1025.796875" />
+    </interiors>
+</homes>

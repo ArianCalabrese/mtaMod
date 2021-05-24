@@ -1,0 +1,59 @@
+<meta>
+    <info author="Castillo" version="3.0.2" name="Gang system" description="Basic gang system." type="script" />
+	<min_mta_version server="1.5.2-9.07903" client="1.5.2-9.07903"></min_mta_version>
+
+	<script src="picker_client.lua" type="client" />
+    <script src="gang_client.lua" type="client" />
+	<script src="connection.lua" type="server" />
+	<script src="gang_utils.lua" type="server" />
+    <script src="gang_server.lua" type="server" />
+
+	<file src="files/blank.png" type="client" />
+	<file src="files/cursor.png" type="client" />
+	<file src="files/sv.png" type="client" />
+	<file src="files/h.png" type="client" />
+
+	<export function="addGang" type="server" /> <!-- Arguments: name, leader, color (table), tag. Returns: true or false. -->
+	<export function="removeGang" type="server" /> <!-- Arguments: gangName. Returns: true or false. -->
+	<export function="doesGangExist" type="server" /> <!-- Arguments: gangName. Returns: true or false. -->
+	<export function="getGangList" type="server" /> <!-- Arguments: SQL (true/false). Returns: A table with gang list. If SQL argument is used, it'll return it with gang name as index -->
+	<export function="getGangData" type="server" /> <!-- Arguments: gangName, dataName (leader, bank, motd, color, tag, members, createdOn, logs (table), ranks(table)). Returns: The data. -->
+	<export function="setGangData" type="server" /> <!-- Arguments: gangName, dataName (Can be a table), dataValue (Can be a table). Returns: true or false. -->
+	<export function="getGangMembers" type="server" /> <!-- Arguments: gangName. Returns: A table with gang members. -->
+	<export function="addGangMember" type="server" /> <!-- Arguments: gangName, accountName, rank, addedBy. Returns: true or false (if false, it'll return a second argument with the error.) -->
+	<export function="removeGangMember" type="server" /> <!-- Arguments: gangName, accountName, kickerName (if used it'll output who kicked the member, else it'll output that you left). Returns: true or false (if false, it'll return a second argument with the error.) -->
+	<export function="getMemberData" type="server" /> <!-- Arguments: gangName, accountName, dataName (gangName, account, rank, nick, lastAction, addedBy, joinedOn). Returns: The data. -->
+	<export function="setMemberData" type="server" /> <!-- Arguments: gangName, accountName, dataName (Can be a table), dataValue (Can be a table). Returns: true or false. -->
+	<export function="getAccountGang" type="server" /> <!-- Arguments: accountName. Returns: The gang name and rank, false otherwise. -->
+	<export function="getPlayerGangInvitation" type="server" /> <!-- Arguments: thePlayer. Returns: table. -->
+	<export function="getPlayersByGang" type="shared" /> <!-- Arguments: gangName. Returns: A table with online gang members. -->
+	<export function="getPlayerGang" type="shared" /> <!-- Arguments: thePlayer. Returns: The gang name, 'None' otherwise. -->
+	<export function="getPlayerGangRank" type="shared" /> <!-- Arguments: thePlayer. Returns: The gang rank, 'None' otherwise. -->
+	<export function="addGangLogMessage" type="server" /> <!-- Arguments: gangName, message. Returns: true or false. -->
+	<export function="clearGangLogMessages" type="server" /> <!-- Arguments: gangName. Returns: true or false. -->
+	<export function="addGangRank" type="server" /> <!-- Arguments: gangName, rankName, privileges (table). Returns: true or false. -->
+	<export function="removeGangRank" type="server" /> <!-- Arguments: gangName, rankName. Returns: true or false. -->
+	<export function="doesRankExist" type="server" /> <!-- Arguments: gangName, rankName. Returns: true or false. -->
+	<export function="isRankAllowedTo" type="server" /> <!-- Arguments: gangName, rankName, action (kick, invite, log, setrank, motd, tag, color, bank_withdraw, clearlog, createrank, editrank, delrank, shout). Returns: true or false. -->
+
+	<settings>
+		<setting name="*scoreboard_resource" value="scoreboard" />
+		<setting name="*column_name" value="Gang" />
+		<setting name="*panel_bind" value="U" />
+		<setting name="*gang_create_bind" value="" /> <!-- empty = no bind -->
+		<setting name="*gang_chat_bind" value="" /> <!-- empty = no bind -->
+		<setting name="*gang_list_command" value="gangs" />
+		<setting name="*gang_create_command" value="creategang" />
+		<setting name="*gang_chat_command" value="gc" />
+		<setting name="*invite_accept_command" value="accept" />
+		<setting name="*shout_command" value="gshout" />
+		<setting name="*max_name_length" value="20" />
+		<setting name="*max_tag_length" value="5" />
+		<setting name="*max_rankname_length" value="15" />
+		<setting name="*max_members" value="0" /> <!-- 0 means unlimited -->
+		<setting name="*shout_time" value="10" /> <!-- seconds -->
+		<setting name="*shout_cooldown" value="30" /> <!-- seconds -->
+		<setting name="*invite_expire" value="60" /> <!-- seconds, put 0 for no expiration -->
+		<setting name="*allow_characters_for_name" value="true" />
+	</settings>
+</meta>

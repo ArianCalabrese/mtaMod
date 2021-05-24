@@ -7598,3 +7598,1102 @@ debuguptime              sfakelag
 [2021-05-23 20:12:42] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
 [2021-05-23 20:12:42] WARNING: vehicles\vehicles.lua:45: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x16]
 [2021-05-23 20:12:42] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-23 20:15:08] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-23 20:15:08] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 20:15:08] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 20:15:08] Resources: 22 loaded, 2 failed
+[2021-05-23 20:15:08] Starting resources....
+[2021-05-23 20:15:08] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-23 20:15:08] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-23 20:15:08] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 20:15:08] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 20:15:08] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-23 20:15:08] WARNING: <owner_email_address> not set
+[2021-05-23 20:15:08] Server started and is ready to accept connections!
+[2021-05-23 20:15:08] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-23 20:15:08] Type 'help' for a list of commands.
+[2021-05-23 20:15:09] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-23 20:15:25] CONNECT: Tomas_Mastikovich connected (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794  Version: 1.5.8-9.20845.0)
+[2021-05-23 20:15:25] JOIN: Tomas_Mastikovich joined the game (IP: 45.184.230.190)
+[2021-05-23 20:15:31] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 20:15:32] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-23 20:15:34] LOGIN: (Everyone, Admin) Tomas_Mastikovich successfully logged in as 'Tomasito' (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794)
+[2021-05-23 20:15:38] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-23 20:16:52] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 20:16:55] ADMIN: Tomas_Mastikovich has warped to Arian_Calabrese
+[2021-05-23 20:18:17] CHAT: Arian_Calabrese: asd
+[2021-05-23 20:18:24] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:18:24] Starting chat
+[2021-05-23 20:19:32] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:19:32] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:19:32] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:19:32] Starting modloader
+[2021-05-23 20:19:32] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 20:19:32] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 20:19:32] INFO: Please read the readme for more information.
+[2021-05-23 20:19:32] INFO: Added file entry for vehicles: ambulan - vehicles/ambulan.txd
+[2021-05-23 20:19:32] INFO: Added file entry for vehicles: ambulan - vehicles/ambulan.dff
+[2021-05-23 20:19:32] INFO: New mods saved. Restarting resource..
+[2021-05-23 20:19:32] INFO: ModLoader has no permission to restart the resource! Instead, do it manually or add this resource to the ACL.
+[2021-05-23 20:19:33] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 20:19:33] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:19:40] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:19:40] WARNING: gtavradar/render.lua(Line 69) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2021-05-23 20:19:40] WARNING: gtavradar/render.lua(Line 186) [Client] isPedInWater is deprecated and may not work in future versions. Please replace with isElementInWater.
+[2021-05-23 20:19:40] Some files in 'gtavradar' use deprecated functions.
+[2021-05-23 20:19:40] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 20:19:40] Starting gtavradar
+[2021-05-23 20:19:50] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:19:50] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:20:00] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 20:20:12] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 20:20:27] ADMIN: Arian_Calabrese has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:20:27] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:20:35] ADMIN: Arian_Calabrese has upgraded vehicle of Tomas_Mastikovich (1010, 1087)
+[2021-05-23 20:20:35] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese (1010, 1087)
+[2021-05-23 20:20:41] ADMIN: Arian_Calabrese has changed color of Tomas_Mastikovich's vehicle
+[2021-05-23 20:20:41] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 20:21:55] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Phoenix'" 
+[2021-05-23 20:22:13] ADMIN: Arian_Calabrese has changed color of Tomas_Mastikovich's vehicle
+[2021-05-23 20:22:13] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 20:23:24] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police SF'" 
+[2021-05-23 20:23:39] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police Ranger'" 
+[2021-05-23 20:23:45] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police LV'" 
+[2021-05-23 20:23:49] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police LS'" 
+[2021-05-23 20:24:06] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Buffalo'" 
+[2021-05-23 20:24:50] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:24:50] Starting fps
+[2021-05-23 20:25:23] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:25:23] Starting shaderwetroads2
+[2021-05-23 20:25:23] INFO: MainClassS was loaded.
+[2021-05-23 20:25:47] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:25:47] Stopping shaderwetroads2
+[2021-05-23 20:25:47] INFO: MainClassS was deleted.
+[2021-05-23 20:26:02] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:26:25] ADMIN: Arian_Calabrese has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:26:25] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:37] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Broadway'" 
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:37] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:38] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:38] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:26:38] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 20:27:37] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:27:37] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:27:39] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 20:27:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 20:27:44] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:27:44] Stopping modloader
+[2021-05-23 20:27:44] WARNING: modloader\loader_s.lua:128: Bad argument @ 'xmlSaveFile' [Expected xml-node at argument 1]
+[2021-05-23 20:27:44] WARNING: modloader\loader_s.lua:129: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1]
+[2021-05-23 20:27:45] Resource 'modloader' changed, reloading and starting
+[2021-05-23 20:27:45] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:27:45] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:27:45] Starting modloader
+[2021-05-23 20:27:45] modloader restarted successfully
+[2021-05-23 20:27:45] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 20:27:45] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 20:27:45] INFO: Please read the readme for more information.
+[2021-05-23 20:27:46] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 20:29:16] ADMIN: Arian_Calabrese has set weather to '8 Storming'
+[2021-05-23 20:30:37] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:30:37] Starting shaderwetroads2
+[2021-05-23 20:30:37] INFO: MainClassS was loaded.
+[2021-05-23 20:31:22] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:31:22] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:32:05] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:32:05] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:32:14] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:32:25] ADMIN: Arian_Calabrese has set weather to '10 Clear Blue Sky'
+[2021-05-23 20:33:21] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Ambulance'" 
+[2021-05-23 20:35:02] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police LS'" 
+[2021-05-23 20:35:50] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'HPV1000'" 
+[2021-05-23 20:36:09] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 20:36:09] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 20:36:13] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:36:13] Stopping modloader
+[2021-05-23 20:36:14] Starting modloader
+[2021-05-23 20:36:14] modloader restarted successfully
+[2021-05-23 20:36:14] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 20:36:14] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 20:36:14] INFO: Please read the readme for more information.
+[2021-05-23 20:36:14] INFO: Added file entry for vehicles: hpv1000 - vehicles/hpv1000.txd
+[2021-05-23 20:36:14] INFO: Added file entry for vehicles: hpv1000 - vehicles/hpv1000.dff
+[2021-05-23 20:36:14] INFO: New mods saved. Restarting resource..
+[2021-05-23 20:36:14] INFO: ModLoader has no permission to restart the resource! Instead, do it manually or add this resource to the ACL.
+[2021-05-23 20:36:15] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 20:36:16] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:36:22] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'HPV1000'" 
+[2021-05-23 20:36:38] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police SF'" 
+[2021-05-23 20:37:09] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:37:09] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:37:10] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:37:39] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 20:37:39] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 20:37:45] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:37:45] Stopping modloader
+[2021-05-23 20:37:45] WARNING: modloader\loader_s.lua:128: Bad argument @ 'xmlSaveFile' [Expected xml-node at argument 1]
+[2021-05-23 20:37:45] WARNING: modloader\loader_s.lua:129: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1]
+[2021-05-23 20:37:45] Resource 'modloader' changed, reloading and starting
+[2021-05-23 20:37:45] ERROR: Couldn't find file vehicles/hpv1000.txd for resource modloader
+[2021-05-23 20:37:45] Loading of resource 'modloader' failed
+[2021-05-23 20:37:45] ERROR: Unable to restart resource modloader
+[2021-05-23 20:37:59] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:38:43] Resource 'modloader' changed, reloading
+[2021-05-23 20:38:43] New resource 'modloader' loaded
+[2021-05-23 20:38:43] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 20:38:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 20:38:43] Resources: 22 loaded, 2 failed
+[2021-05-23 20:38:48] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:38:48] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:38:48] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:38:48] Starting modloader
+[2021-05-23 20:38:48] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 20:38:48] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 20:38:48] INFO: Please read the readme for more information.
+[2021-05-23 20:38:48] INFO: Added file entry for vehicles: police_sf - vehicles/police_sf.txd
+[2021-05-23 20:38:48] INFO: Added file entry for vehicles: police_sf - vehicles/police_sf.dff
+[2021-05-23 20:38:48] INFO: Added file entry for vehicles: police_la - vehicles/police_la.txd
+[2021-05-23 20:38:48] INFO: Added file entry for vehicles: police_la - vehicles/police_la.dff
+[2021-05-23 20:38:48] INFO: New mods saved. Restarting resource..
+[2021-05-23 20:38:48] INFO: ModLoader has no permission to restart the resource! Instead, do it manually or add this resource to the ACL.
+[2021-05-23 20:38:50] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 20:38:50] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:39:03] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Police SF'" 
+[2021-05-23 20:40:34] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:40:34] Stopping modloader
+[2021-05-23 20:40:34] WARNING: modloader\loader_s.lua:128: Bad argument @ 'xmlSaveFile' [Expected xml-node at argument 1]
+[2021-05-23 20:40:34] WARNING: modloader\loader_s.lua:129: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1]
+[2021-05-23 20:40:34] Resource 'modloader' changed, reloading and starting
+[2021-05-23 20:40:35] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:40:35] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 20:40:35] Starting modloader
+[2021-05-23 20:40:35] modloader restarted successfully
+[2021-05-23 20:40:35] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 20:40:35] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 20:40:35] INFO: Please read the readme for more information.
+[2021-05-23 20:40:37] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 20:40:52] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Police SF'" 
+[2021-05-23 20:41:08] QUIT: Tomas_Mastikovich left the game [Quit]
+[2021-05-23 20:41:10] CONNECT: Tomas_Mastikovich connected (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794  Version: 1.5.8-9.20845.0)
+[2021-05-23 20:41:10] JOIN: Tomas_Mastikovich joined the game (IP: 45.184.230.190)
+[2021-05-23 20:41:26] LOGIN: (Everyone, Admin) Tomas_Mastikovich successfully logged in as 'Tomasito' (IP: 45.184.230.190  Serial: 56C77A5616E1FA4AE80540E940EC4794)
+[2021-05-23 20:45:54] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 20:46:02] ADMIN: Tomas_Mastikovich has changed Tomas_Mastikovich's skin to 229
+[2021-05-23 20:46:24] ADMIN: Tomas_Mastikovich has changed Tomas_Mastikovich's skin to 311
+[2021-05-23 20:48:34] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 20:50:52] ADMIN: Tomas_Mastikovich has warped to Tomas_Mastikovich
+[2021-05-23 20:50:56] ADMIN: Tomas_Mastikovich has warped to Arian_Calabrese
+[2021-05-23 20:51:46] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:51:46] Starting job_pizza
+[2021-05-23 20:51:59] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:51:59] Stopping job_pizza
+[2021-05-23 20:51:59] Starting job_pizza
+[2021-05-23 20:51:59] job_pizza restarted successfully
+[2021-05-23 20:52:10] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:52:10] Stopping job_pizza
+[2021-05-23 20:52:48] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:52:48] WARNING: job_pilot/PilotJob.lua(Line 42) [Server] setPlayerSkin is deprecated and may not work in future versions. Please replace with setElementModel.
+[2021-05-23 20:52:48] WARNING: job_pilot/PilotJob.lua(Line 69) [Server] getPlayerOccupiedVehicle is deprecated and may not work in future versions. Please replace with getPedOccupiedVehicle.
+[2021-05-23 20:52:48] WARNING: job_pilot/Vehicles.lua(Line 23) [Server] getPlayerSkin is deprecated and may not work in future versions. Please replace with getElementModel.
+[2021-05-23 20:52:48] Some files in 'job_pilot' use deprecated functions.
+[2021-05-23 20:52:48] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 20:52:48] Starting job_pilot
+[2021-05-23 20:52:48] WARNING: [jobs]\job_pilot\PilotJob.lua:126: Bad argument @ 'addEventHandler' [Expected element at argument 2, got function]
+[2021-05-23 20:54:18] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:54:18] Starting job_trucker
+[2021-05-23 20:55:17] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:55:17] Stopping job_pilot
+[2021-05-23 20:55:27] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:55:27] Stopping job_trucker
+[2021-05-23 20:55:28] Starting job_trucker
+[2021-05-23 20:55:28] job_trucker restarted successfully
+[2021-05-23 20:56:23] INFO: modloader server: Player Tomas_Mastikovich requested replacing
+[2021-05-23 20:56:31] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:56:31] Stopping job_trucker
+[2021-05-23 20:56:31] Starting job_trucker
+[2021-05-23 20:56:31] job_trucker restarted successfully
+[2021-05-23 20:56:44] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:56:44] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:57:28] ADMIN: Arian_Calabrese has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 20:57:28] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 20:58:14] stop: Requested by Arian_Calabrese(Arian)
+[2021-05-23 20:58:14] Stopping job_trucker
+[2021-05-23 20:58:19] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 20:58:19] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police SF'" 
+[2021-05-23 20:58:53] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 20:58:53] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 20:58:54] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 20:58:54] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 20:58:54] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 20:58:54] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 20:58:54] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 20:58:55] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 20:58:55] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 20:59:01] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 20:59:01] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 20:59:08] ADMIN: Arian_Calabrese has warped to Tomas_Mastikovich
+[2021-05-23 20:59:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 20:59:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 20:59:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 20:59:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 20:59:32] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police LS'" 
+[2021-05-23 21:00:46] ADMIN: Arian_Calabrese has changed color of Tomas_Mastikovich's vehicle
+[2021-05-23 21:00:46] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 21:00:50] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:00:50] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 21:00:59] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:00:59] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:00:59] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:00:59] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:00:59] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:00] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:00] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:00] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:00] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:00] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:01] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:01] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:01] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:01] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:01] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:01] ADMIN: Arian_Calabrese has changed color of Tomas_Mastikovich's vehicle
+[2021-05-23 21:01:01] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 21:01:02] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:02] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:03] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:03] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:04] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:04] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:05] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:05] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:06] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:06] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:06] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:06] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:06] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:07] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:07] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:08] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:08] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:09] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:09] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:11] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:13] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:13] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:15] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:15] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:18] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:18] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]  [DUP x3]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]  [DUP x3]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:20] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:20] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:21] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:01:22] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:22] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:26] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]  [DUP x4]
+[2021-05-23 21:01:26] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]  [DUP x4]
+[2021-05-23 21:01:26] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:01:31] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 21:01:31] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 21:01:37] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 21:01:37] Stopping velocimetro
+[2021-05-23 21:01:37] Starting velocimetro
+[2021-05-23 21:01:37] velocimetro restarted successfully
+[2021-05-23 21:02:12] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'HPV1000'" 
+[2021-05-23 21:02:26] ADMIN: Arian_Calabrese has given Arian_Calabrese 'AK-47'
+[2021-05-23 21:02:46] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Tropic'" 
+[2021-05-23 21:02:53] ADMIN: Arian_Calabrese has destroyed vehicle of Arian_Calabrese
+[2021-05-23 21:02:59] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:03:08] ADMIN: Tomas_Mastikovich has given Arian_Calabrese 'AK-47'
+[2021-05-23 21:03:12] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:03:12] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:03:12] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:03:12] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:03:12] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:03:15] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 21:03:19] WARNING: velocimetro\speedo_S.lua:95: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:03:19] WARNING: velocimetro\speedo_S.lua:102: Bad argument @ 'setVehicleLocked' [Expected element at argument 1]
+[2021-05-23 21:03:23] ADMIN: Arian_Calabrese has warped to Arian_Calabrese
+[2021-05-23 21:03:27] ADMIN: Arian_Calabrese has given Arian_Calabrese 'AK-47'
+[2021-05-23 21:03:27] ADMIN: Arian_Calabrese has given Arian_Calabrese 'AK-47'
+[2021-05-23 21:03:28] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 21:03:29] ADMIN: Arian_Calabrese has warped to Tomas_Mastikovich
+[2021-05-23 21:03:38] ADMIN: Arian_Calabrese has warped to Tomas_Mastikovich
+[2021-05-23 21:03:43] ADMIN: Arian_Calabrese has blown vehicle of Tomas_Mastikovich
+[2021-05-23 21:03:43] ADMIN: Arian_Calabrese has blown vehicle of Arian_Calabrese
+[2021-05-23 21:03:43] WARNING: velocimetro\speedo_S.lua:95: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:03:43] WARNING: velocimetro\speedo_S.lua:102: Bad argument @ 'setVehicleLocked' [Expected element at argument 1]
+[2021-05-23 21:04:07] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Phoenix'" 
+[2021-05-23 21:04:30] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:04:30] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:04:30] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:04:30] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:04:30] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:05:06] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:05:06] ADMIN: Tomas_Mastikovich has fixed vehicle of Arian_Calabrese
+[2021-05-23 21:05:45] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:05:45] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:05:45] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:05:45] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:05:45] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:05:47] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police LV'" 
+[2021-05-23 21:05:53] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police LS'" 
+[2021-05-23 21:05:57] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:05:57] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:05:57] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:05:57] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:05:57] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:06:01] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police Maverick'" 
+[2021-05-23 21:06:07] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police Ranger'" 
+[2021-05-23 21:06:14] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police SF'" 
+[2021-05-23 21:06:15] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Police SF'" 
+[2021-05-23 21:18:04] ADMIN: Tomas_Mastikovich has destroyed vehicle of Arian_Calabrese
+[2021-05-23 21:18:22] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:18:22] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Pizzaboy'" 
+[2021-05-23 21:21:19] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:19] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:19] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:19] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:19] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:21:20] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:21:20] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:21:29] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Ambulance'" 
+[2021-05-23 21:21:52] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Ambulance'" 
+[2021-05-23 21:22:00] ADMIN: Arian_Calabrese has changed color of Tomas_Mastikovich's vehicle
+[2021-05-23 21:22:00] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 21:22:18] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'AT-400'" 
+[2021-05-23 21:22:22] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Ambulance'" 
+[2021-05-23 21:22:29] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'BF-400'" 
+[2021-05-23 21:22:56] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Banshee'" 
+[2021-05-23 21:23:04] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Buffalo'" 
+[2021-05-23 21:23:18] ADMIN: Tomas_Mastikovich has upgraded vehicle of Tomas_Mastikovich (all)
+[2021-05-23 21:23:18] ADMIN: Tomas_Mastikovich has upgraded vehicle of Arian_Calabrese (all)
+[2021-05-23 21:24:00] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:00] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:00] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:00] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:00] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:24:01] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:24:01] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:25:39] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:25:39] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:25:43] New resource 'LSPD' loaded
+[2021-05-23 21:25:43] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 21:25:43] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 21:25:43] Resources: 23 loaded, 2 failed
+[2021-05-23 21:25:54] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:26:02] ADMIN: Tomas_Mastikovich has upgraded vehicle of Tomas_Mastikovich (all)
+[2021-05-23 21:26:08] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Police LS'" 
+[2021-05-23 21:26:12] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:26:12] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Police LS'" 
+[2021-05-23 21:26:33] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese (1010, 1087)
+[2021-05-23 21:26:44] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 21:26:48] ADMIN: Tomas_Mastikovich has upgraded vehicle of Tomas_Mastikovich (all)
+[2021-05-23 21:27:15] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 21:27:18] start: Requested by Arian_Calabrese(Arian)
+[2021-05-23 21:27:18] Starting LSPD
+[2021-05-23 21:27:20] ADMIN: Tomas_Mastikovich has destroyed vehicle of Tomas_Mastikovich
+[2021-05-23 21:27:21] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:27:21] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Turismo'" 
+[2021-05-23 21:28:02] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:02] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:02] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:02] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:02] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:28:06] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 21:28:07] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:07] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:07] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:07] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:07] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:28:09] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:09] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:09] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:09] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:09] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 21:28:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:28:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 21:28:13] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:28:15] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 21:28:15] Stopping velocimetro
+[2021-05-23 21:28:15] Starting velocimetro
+[2021-05-23 21:28:15] velocimetro restarted successfully
+[2021-05-23 21:29:14] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 21:29:15] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich 'AK-47'
+[2021-05-23 21:29:59] ADMIN: Arian_Calabrese has warped to Tomas_Mastikovich
+[2021-05-23 21:30:23] ADMIN: Arian_Calabrese has given Tomas_Mastikovich a 'Broadway'" 
+[2021-05-23 21:30:33] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Buffalo'" 
+[2021-05-23 21:30:52] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:31:00] ADMIN: Tomas_Mastikovich has upgraded vehicle of Tomas_Mastikovich (all)
+[2021-05-23 21:31:06] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 21:31:12] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 21:31:14] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese (all)
+[2021-05-23 21:31:22] ADMIN: Tomas_Mastikovich has fixed vehicle of Tomas_Mastikovich
+[2021-05-23 21:31:29] ADMIN: Tomas_Mastikovich has destroyed vehicle of Tomas_Mastikovich
+[2021-05-23 21:31:38] ADMIN: Arian_Calabrese has given Arian_Calabrese 'MP5'
+[2021-05-23 21:31:38] ADMIN: Arian_Calabrese has given Arian_Calabrese 'MP5'
+[2021-05-23 21:31:39] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 21:31:39] ADMIN: Tomas_Mastikovich has given Tomas_Mastikovich a 'Broadway'" 
+[2021-05-23 21:33:21] QUIT: Tomas_Mastikovich left the game [Quit]
+[2021-05-23 21:33:21] WARNING: velocimetro\speedo_S.lua:95: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 21:33:21] WARNING: velocimetro\speedo_S.lua:102: Bad argument @ 'setVehicleLocked' [Expected element at argument 1]
+[2021-05-23 21:34:25] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-23 21:34:30] Server stopped!
+[2021-05-23 21:34:30] Stopping resources.........
+[2021-05-23 21:34:30] INFO: MainClassS was deleted.
+[2021-05-23 21:34:30] ERROR: vehicles\vehicles.lua:77: exports: Call to non-running server resource (db) [string "?"]
+[2021-05-23 21:34:30] WARNING: vehicles\vehicles.lua:84: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2021-05-23 21:34:30] WARNING: vehicles\vehicles.lua:84: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x27]
+[2021-05-23 21:34:30] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-23 23:43:49] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-23 23:43:50] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-23 23:43:50] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-23 23:43:50] Resources: 23 loaded, 2 failed
+[2021-05-23 23:43:50] Starting resources....
+[2021-05-23 23:43:50] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-23 23:43:50] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-23 23:43:50] Some files in 'velocimetro' use deprecated functions.
+[2021-05-23 23:43:50] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-23 23:43:50] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-23 23:43:50] WARNING: <owner_email_address> not set
+[2021-05-23 23:43:50] Server started and is ready to accept connections!
+[2021-05-23 23:43:50] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-23 23:43:50] Type 'help' for a list of commands.
+[2021-05-23 23:43:51] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-23 23:43:57] start: Requested by Console
+[2021-05-23 23:43:58] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 23:43:58] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 23:43:58] Starting modloader
+[2021-05-23 23:43:59] start: Resource 'modloader' started
+[2021-05-23 23:43:59] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:43:59] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:43:59] INFO: Please read the readme for more information.
+[2021-05-23 23:44:59] restart: Requested by Console
+[2021-05-23 23:44:59] restart: Resource restarting...
+[2021-05-23 23:44:59] Stopping modloader
+[2021-05-23 23:45:00] Starting modloader
+[2021-05-23 23:45:00] modloader restarted successfully
+[2021-05-23 23:45:00] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:45:00] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:45:00] INFO: Please read the readme for more information.
+[2021-05-23 23:45:49] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-23 23:45:50] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-23 23:45:52] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:46:04] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-23 23:46:07] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-23 23:46:20] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'HPV1000'" 
+[2021-05-23 23:46:23] ADMIN: Arian_Calabrese has destroyed vehicle of Arian_Calabrese
+[2021-05-23 23:46:47] restart: Requested by Console
+[2021-05-23 23:46:47] restart: Resource restarting...
+[2021-05-23 23:46:47] Stopping modloader
+[2021-05-23 23:46:48] Starting modloader
+[2021-05-23 23:46:48] modloader restarted successfully
+[2021-05-23 23:46:48] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:46:48] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:46:48] INFO: Please read the readme for more information.
+[2021-05-23 23:46:50] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:47:09] restart: Requested by Console
+[2021-05-23 23:47:09] restart: Resource restarting...
+[2021-05-23 23:47:09] Stopping modloader
+[2021-05-23 23:47:10] Starting modloader
+[2021-05-23 23:47:11] modloader restarted successfully
+[2021-05-23 23:47:11] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:47:11] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:47:11] INFO: Please read the readme for more information.
+[2021-05-23 23:47:12] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:47:27] stop: Requested by Console
+[2021-05-23 23:47:27] stop: Resource stopping
+[2021-05-23 23:47:27] Stopping modloader
+[2021-05-23 23:47:29] start: Requested by Console
+[2021-05-23 23:47:29] Starting modloader
+[2021-05-23 23:47:30] start: Resource 'modloader' started
+[2021-05-23 23:47:30] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:47:35] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:47:35] INFO: Please read the readme for more information.
+[2021-05-23 23:47:35] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:47:35] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:47:35] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'HPV1000'" 
+[2021-05-23 23:47:47] restart: Requested by Console
+[2021-05-23 23:47:47] restart: Resource restarting...
+[2021-05-23 23:47:47] Stopping modloader
+[2021-05-23 23:47:48] Starting modloader
+[2021-05-23 23:47:48] modloader restarted successfully
+[2021-05-23 23:47:48] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:47:48] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:47:48] INFO: Please read the readme for more information.
+[2021-05-23 23:47:50] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:48:10] restart: Requested by Console
+[2021-05-23 23:48:10] restart: Resource restarting...
+[2021-05-23 23:48:10] Stopping modloader
+[2021-05-23 23:48:11] Starting modloader
+[2021-05-23 23:48:11] modloader restarted successfully
+[2021-05-23 23:48:11] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:48:11] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:48:11] INFO: Please read the readme for more information.
+[2021-05-23 23:48:11] INFO: Added file entry for vehicles: hpv1000 - vehicles/hpv1000.txd
+[2021-05-23 23:48:11] INFO: Added file entry for vehicles: hpv1000 - vehicles/hpv1000.dff
+[2021-05-23 23:48:12] INFO: New mods saved. Restarting resource..
+[2021-05-23 23:48:12] INFO: ModLoader has no permission to restart the resource! Instead, do it manually or add this resource to the ACL.
+[2021-05-23 23:48:13] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:48:25] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-23 23:48:25] Stopping modloader
+[2021-05-23 23:48:25] WARNING: modloader\loader_s.lua:128: Bad argument @ 'xmlSaveFile' [Expected xml-node at argument 1]
+[2021-05-23 23:48:25] WARNING: modloader\loader_s.lua:129: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1]
+[2021-05-23 23:48:26] Resource 'modloader' changed, reloading and starting
+[2021-05-23 23:48:26] WARNING: File 'vehicles/phoenix.dff' in resource 'modloader' contains errors.
+[2021-05-23 23:48:26] WARNING: File 'vehicles/turismo.dff' in resource 'modloader' contains errors.
+[2021-05-23 23:48:26] Starting modloader
+[2021-05-23 23:48:26] modloader restarted successfully
+[2021-05-23 23:48:26] INFO: It seems you use the default resource name for ModLoader.
+[2021-05-23 23:48:26] INFO: It's reccomanded to change the name to something unique.
+[2021-05-23 23:48:26] INFO: Please read the readme for more information.
+[2021-05-23 23:48:28] INFO: modloader server: Player Arian_Calabrese requested replacing
+[2021-05-23 23:48:31] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:49:32] ADMIN: Arian_Calabrese has changed Arian_Calabrese's skin to 281
+[2021-05-23 23:50:07] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:07] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:07] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:07] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:07] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:08] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:08] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:08] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:08] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:08] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:09] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'getVehicleEngineState' [Expected vehicle at argument 1]
+[2021-05-23 23:50:09] WARNING: velocimetro\speedo_S.lua:251: Bad argument @ 'setVehicleEngineState' [Expected element at argument 1]
+[2021-05-23 23:50:10] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:10] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:10] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:10] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:10] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:13] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:13] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:14] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:14] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:15] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:15] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:16] WARNING: velocimetro\speedo_S.lua:151: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:16] WARNING: velocimetro\speedo_S.lua:152: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:16] WARNING: velocimetro\speedo_S.lua:172: Bad argument @ 'getVehicleName' [Expected vehicle at argument 1]
+[2021-05-23 23:50:16] WARNING: velocimetro\speedo_S.lua:173: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:50:16] ERROR: velocimetro\speedo_S.lua:177: Bad argument @ 'setElementData' [Expected element at argument 1]
+[2021-05-23 23:50:25] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:50:42] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:50:56] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:51:45] WARNING: velocimetro\speedo_S.lua:95: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-23 23:51:45] WARNING: velocimetro\speedo_S.lua:102: Bad argument @ 'setVehicleLocked' [Expected element at argument 1]
+[2021-05-23 23:52:01] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:52:01] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Police LS'" 
+[2021-05-23 23:52:26] ERROR: velocimetro\speedo_S.lua:82: Bad argument @ 'removeElementData' [Expected element at argument 1]
+[2021-05-23 23:52:26] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Turismo'" 
+[2021-05-23 23:52:47] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 23:53:14] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 23:54:01] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 23:54:44] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 23:55:07] ADMIN: Arian_Calabrese has fixed vehicle of Arian_Calabrese
+[2021-05-23 23:55:21] ADMIN: Arian_Calabrese has changed color of Arian_Calabrese's vehicle
+[2021-05-23 23:55:27] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese ()
+[2021-05-23 23:55:35] ADMIN: Arian_Calabrese has upgraded vehicle of Arian_Calabrese (1010, 1087)
+[2021-05-24 00:07:04] New resource '[gang_system]' loaded
+[2021-05-24 00:07:04] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:07:04] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:07:04] Resources: 24 loaded, 2 failed
+[2021-05-24 00:07:37] Resource '[gang_system]' has been removed, unloading
+[2021-05-24 00:07:37] New resource 'gang_system' loaded
+[2021-05-24 00:07:37] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:07:37] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:07:37] Resources: 24 loaded, 2 failed
+[2021-05-24 00:07:41] start: Requested by Arian_Calabrese(Arian)
+[2021-05-24 00:07:41] WARNING: gang_system <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:07:41] WARNING: gang_system requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:07:41] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:07:41] Starting gang_system
+[2021-05-24 00:07:41] ERROR: gang_system\gang_server.lua:48: exports: Call to non-running server resource (scoreboard) [string "?"]
+[2021-05-24 00:07:41] INFO: Gang System: Successfully connected to database
+[2021-05-24 00:07:57] QUIT: Arian_Calabrese left the game [Quit]
+[2021-05-24 00:07:57] WARNING: velocimetro\speedo_S.lua:95: Bad argument @ 'getElementData' [Expected element at argument 1]
+[2021-05-24 00:07:57] WARNING: velocimetro\speedo_S.lua:102: Bad argument @ 'setVehicleLocked' [Expected element at argument 1]
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-24 00:08:20] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-24 00:08:20] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:08:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:08:20] Resources: 24 loaded, 2 failed
+[2021-05-24 00:08:20] Starting resources....
+[2021-05-24 00:08:21] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-24 00:08:21] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-24 00:08:21] Some files in 'velocimetro' use deprecated functions.
+[2021-05-24 00:08:21] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:08:21] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-24 00:08:21] WARNING: <owner_email_address> not set
+[2021-05-24 00:08:21] Server started and is ready to accept connections!
+[2021-05-24 00:08:21] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-24 00:08:21] Type 'help' for a list of commands.
+[2021-05-24 00:08:21] Querying MTA master server... success! (Auto detected IP:181.21.60.5)
+[2021-05-24 00:08:26] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-24 00:08:26] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-24 00:08:33] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-24 00:09:33] start: Requested by Arian_Calabrese(Arian)
+[2021-05-24 00:09:33] WARNING: gang_system <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:09:33] WARNING: gang_system requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:09:33] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:09:33] Starting gang_system
+[2021-05-24 00:09:33] ERROR: gang_system\gang_server.lua:48: exports: Call to non-running server resource (scoreboard) [string "?"]
+[2021-05-24 00:09:33] INFO: Gang System: Successfully connected to database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-24 00:11:03] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-24 00:11:03] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:11:03] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:11:03] Resources: 24 loaded, 2 failed
+[2021-05-24 00:11:03] Starting resources....
+[2021-05-24 00:11:03] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-24 00:11:03] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle.
+[2021-05-24 00:11:03] Some files in 'velocimetro' use deprecated functions.
+[2021-05-24 00:11:03] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:11:03] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-24 00:11:03] WARNING: <owner_email_address> not set
+[2021-05-24 00:11:03] Server started and is ready to accept connections!
+[2021-05-24 00:11:03] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-24 00:11:03] Type 'help' for a list of commands.
+[2021-05-24 00:11:04] Querying MTA master server... success! (Auto detected IP:181.21.47.39)
+[2021-05-24 00:11:10] start: Requested by Console
+[2021-05-24 00:11:10] WARNING: gang_system <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:11:10] WARNING: gang_system requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:11:10] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:11:10] Starting gang_system
+[2021-05-24 00:11:10] ERROR: gang_system\gang_server.lua:48: exports: Call to non-running server resource (scoreboard) [string "?"]
+[2021-05-24 00:11:10] INFO: Gang System: Successfully connected to database
+[2021-05-24 00:11:10] start: Resource 'gang_system' started
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-24 00:14:51] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-24 00:14:51] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:14:51] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:14:51] Resources: 24 loaded, 2 failed
+[2021-05-24 00:14:51] ERROR: Could not bind the server on interface '' and port '22003'!
+[2021-05-24 00:14:52] Server stopped!
+[2021-05-24 00:14:52] Stopping resources...
+[2021-05-24 00:14:52] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.8
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ..RVER/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2021-05-24 00:15:01] Resource 'acpanel' requests some acl rights. Use the command 'aclrequest list acpanel'
+[2021-05-24 00:15:01] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:15:01] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:15:01] Resources: 24 loaded, 2 failed
+[2021-05-24 00:15:01] Starting resources....
+[2021-05-24 00:15:01] Server minclientversion is now 1.5.8-9.20845.0
+[2021-05-24 00:15:01] WARNING: velocimetro/speedo_S.lua(Line 56) [Server] removePlayerFromVehicle is deprecated and may not work in future versions. Please replace with removePedFromVehicle before Tuesday.
+[2021-05-24 00:15:01] Some files in 'velocimetro' use deprecated functions.
+[2021-05-24 00:15:01] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:15:01] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2021-05-24 00:15:01] WARNING: <owner_email_address> not set
+[2021-05-24 00:15:01] Server started and is ready to accept connections!
+[2021-05-24 00:15:01] To stop the server, type 'shutdown' or press Ctrl-C
+[2021-05-24 00:15:01] Type 'help' for a list of commands.
+[2021-05-24 00:15:02] Querying MTA master server... success! (Auto detected IP:181.21.47.39)
+[2021-05-24 00:15:06] start: Requested by Console
+[2021-05-24 00:15:06] WARNING: gang_system <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:15:06] WARNING: gang_system requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least server 1.5.2-9.07903 because of 'gang_utils.lua')
+[2021-05-24 00:15:06] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2021-05-24 00:15:06] Starting gang_system
+[2021-05-24 00:15:06] ERROR: gang_system\gang_server.lua:48: exports: Call to non-running server resource (scoreboard) [string "?"]
+[2021-05-24 00:15:06] INFO: Gang System: Successfully connected to database
+[2021-05-24 00:15:06] start: Resource 'gang_system' started
+[2021-05-24 00:15:47] restart: Requested by Console
+[2021-05-24 00:15:47] restart: Resource restarting...
+[2021-05-24 00:15:47] Stopping gang_system
+[2021-05-24 00:15:47] Resource 'gang_system' changed, reloading and starting
+[2021-05-24 00:15:47] Starting gang_system
+[2021-05-24 00:15:47] ERROR: gang_system\gang_server.lua:48: exports: Call to non-running server resource (scoreboard) [string "?"]
+[2021-05-24 00:15:47] INFO: Gang System: Successfully connected to database
+[2021-05-24 00:15:47] gang_system restarted successfully
+[2021-05-24 00:15:56] CONNECT: Arian_Calabrese connected (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4  Version: 1.5.8-9.20845.0)
+[2021-05-24 00:15:56] JOIN: Arian_Calabrese joined the game (IP: 192.168.0.103)
+[2021-05-24 00:16:09] LOGIN: (Everyone, Admin) Arian_Calabrese successfully logged in as 'Arian' (IP: 192.168.0.103  Serial: 37DD494FDE04CDA5C923E2FE50DB1BE4)
+[2021-05-24 00:17:31] stop: Requested by Console
+[2021-05-24 00:17:31] stop: Resource stopping
+[2021-05-24 00:17:31] Stopping gang_system
+[2021-05-24 00:36:20] New resource 'housing_system' loaded
+[2021-05-24 00:36:20] ERROR: Problem with resource: deathmatch; Failed to link to killmessages
+[2021-05-24 00:36:20] ERROR: Problem with resource: runcode; Failed to link to ajax
+[2021-05-24 00:36:20] Resources: 25 loaded, 2 failed
+[2021-05-24 00:36:31] start: Requested by Arian_Calabrese(Arian)
+[2021-05-24 00:36:31] Starting housing_system
+[2021-05-24 00:36:49] WARNING: [admin]\admin\server\admin_sync.lua:125: Access denied @ 'getServerPassword'
+[2021-05-24 00:37:02] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Ganton
+[2021-05-24 00:37:25] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-24 00:37:29] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Banshee'" 
+[2021-05-24 00:37:38] start: Requested by Arian_Calabrese(Arian)
+[2021-05-24 00:37:38] Starting fps
+[2021-05-24 00:38:59] ADMIN: Arian_Calabrese has moved Arian_Calabrese to Idlewood
+[2021-05-24 00:39:15] ADMIN: Arian_Calabrese has given Arian_Calabrese a 'Banshee'" 
+[2021-05-24 00:41:00] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:41:48] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:41:53] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:42:37] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:42:45] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:43:06] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:43:09] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:43:33] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:46:38] WARNING: housing_system\server.lua:68: Bad argument @ 'xmlUnloadFile' [Expected xml-node at argument 1, got root]
+[2021-05-24 00:50:06] restart: Requested by Arian_Calabrese(Arian)
+[2021-05-24 00:50:06] Stopping housing_system
+[2021-05-24 00:50:06] Starting housing_system
+[2021-05-24 00:50:06] housing_system restarted successfully

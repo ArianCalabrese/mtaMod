@@ -13,4 +13,12 @@
     <file src="vehicles/phoenix.dff"></file>
     <file src="vehicles/turismo.txd"></file>
     <file src="vehicles/turismo.dff"></file>
+    <file src="vehicles/ambulan.txd"></file>
+    <file src="vehicles/ambulan.dff"></file>
+    <file src="vehicles/police_sf.txd"></file>
+    <file src="vehicles/police_sf.dff"></file>
+    <file src="vehicles/police_la.txd"></file>
+    <file src="vehicles/police_la.dff"></file>
+    <file src="vehicles/hpv1000.txd"></file>
+    <file src="vehicles/hpv1000.dff"></file>
 </meta>
