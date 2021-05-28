@@ -1,6 +1,7 @@
 <meta>
-<info name="pizzaBoy" author="Jakub" type="script" version="1.0.0" />
-<script src="c_side.lua" type="client" cache="true" />
-<script src="s_side.lua" type="server" cache="true" />
-<file src="gui.png" />
+    <info name="pizzaBoy" author="Jakub" type="script" version="1.0.0" />
+    <min_mta_version client="1.5.7-0.20397"></min_mta_version>
+    <script src="c_side.lua" type="client" cache="true" />
+    <script src="s_side.lua" type="server" cache="true" />
+    <file src="gui.png" />
 </meta>

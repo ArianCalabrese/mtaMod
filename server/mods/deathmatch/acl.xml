@@ -19,6 +19,7 @@
         <object name="user.TestUser"></object>
         <object name="user.Arian"></object>
         <object name="user.Tomasito"></object>
+        <object name="user.leito1"></object>
     </group>
     <group name="Console">
         <acl name="Moderator"></acl>

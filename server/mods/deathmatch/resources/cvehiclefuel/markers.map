@@ -1,0 +1,21 @@
+<map>
+	<marker posX="-2024.2071533203" posY="156.86796569824" posZ="29.8359375" type="cylinder" color="#FF0000" /> 
+	<marker posX="2114.6799316406" posY="920.03802490234" posZ="10.8203125" type="cylinder" color="#FF0000" /> 
+	<marker posX="2639.9396972656" posY="1106.4301757813" posZ="10.376944541931" type="cylinder" color="#FF0000" /> 
+	<marker posX="2147.025390625" posY="2747.4851074219" posZ="10.392276763916" type="cylinder" color="#FF0000" /> 
+	<marker posX="2202.6599121094" posY="2474.2084960938" posZ="10.389625549316" type="cylinder" color="#FF0000" /> 
+	<marker posX="1595.8334960938" posY="2199.1372070313" posZ="10.392153739929" type="cylinder" color="#FF0000" /> 
+	<marker posX="292.55081176758" posY="2541.2055664063" posZ="16.820880889893" type="cylinder" color="#FF0000" /> 
+	<marker posX="611.92376708984" posY="1694.8377685547" posZ="6.9921875" type="cylinder" color="#FF0000" /> 
+	<marker posX="-1328.3668212891" posY="2677.4641113281" posZ="50.0625" type="cylinder" color="#FF0000" /> 
+	
+	<blip posX="-2024.2071533203" posY="156.86796569824" posZ="29.8359375" icon="40" /> 
+	<blip posX="2114.6799316406" posY="920.03802490234" posZ="10.8203125" icon="40" /> 
+	<blip posX="2639.9396972656" posY="1106.4301757813" posZ="10.376944541931" icon="40" /> 
+	<blip posX="2147.025390625" posY="2747.4851074219" posZ="10.392276763916" icon="40" /> 
+	<blip posX="2202.6599121094" posY="2474.2084960938" posZ="10.389625549316" icon="40" /> 
+	<blip posX="1595.8334960938" posY="2199.1372070313" posZ="10.392153739929" icon="40" /> 
+	<blip posX="292.55081176758" posY="2541.2055664063" posZ="16.820880889893" icon="40" /> 
+	<blip posX="611.92376708984" posY="1694.8377685547" posZ="6.9921875" icon="40" /> 
+	<blip posX="-1328.3668212891" posY="2677.4641113281" posZ="50.0625" icon="40" /> 
+</map>

@@ -3,8 +3,8 @@
         <house dim="0" interior="1" num="0" x="2260.2143554688" y="-1394.7037353516" z="24" lx="2256.5815429688" ly="-1397.2418212891" lz="24.573816299438" cost="50000" owner="mR|TurboCow" street="East Los Santos" sellprice="25000" lockStatus="lock" />
         <house dim="1" interior="1" num="1" x="2247.744140625" y="-1394.7790527344" z="24" lx="2243.4626464844" ly="-1397.2219238281" lz="24.573816299438" cost="50000" owner="mR|TurboCow" street="East Los Santos" sellprice="25000" lockStatus="unlock" />
         <house dim="2" interior="1" num="2" x="2232.66015625" y="-1394.7712402344" z="24" lx="2230.3618164063" ly="-1397.2426757813" lz="24.573816299438" cost="50000" owner="" street="East Los Santos" sellprice="25000" lockStatus="unlock" />
-        <house dim="3" interior="0" num="3" x="2495.3610839844" y="-1690.7628173828" z="14.765625" lx="2495.3610839844" ly="-1690.7628173828" lz="14.765625" cost="250000" owner="" street="Calle 49" sellprice="300000" lockStatus="unlock"></house>
-        <house dim="4" interior="1" num="4" x="2522.6320800781" y="-1679.1613769531" z="15.496999740601" lx="2515.029296875" ly="-1676.5689697266" lz="13.784395217896" cost="12000" owner="Arian" street="Calle 49" sellprice="15000" lockStatus="unlock"></house>
+        <house dim="3" interior="0" num="3" x="2495.3610839844" y="-1690.7628173828" z="14.765625" lx="2495.3610839844" ly="-1690.7628173828" lz="14.765625" cost="250000" owner="Tomasito" street="Calle 49" sellprice="300000" lockStatus="lock"></house>
+        <house dim="4" interior="1" num="4" x="2522.6320800781" y="-1679.1613769531" z="15.496999740601" lx="2515.029296875" ly="-1676.5689697266" lz="13.784395217896" cost="12000" owner="Arian" street="Calle 49" sellprice="15000" lockStatus="lock"></house>
     </houses>
     <interiors>
         <interior num="0" id="3" x="2496.02" y="-1692.10" z="1014.74" />

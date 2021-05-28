@@ -1,63 +1,94 @@
---[[
-  Author script: Jakub ;
-  E-amil: None ;
-  Country: Poland;
---]]
-local screenW, screenH = guiGetScreenSize()
-local h, w = (screenW / 800), (screenH / 600)
+-- local Delivery = {{2755, -1302.4, 53}, {2436.5, -1303.3, 24.9}, {2508.3, -1999.99, 13.54}, {2241.8, -1882.65, 14.23},
+--                   {1762.3, -2103.57, 13.85}, {128.97, -1098.96, 25.92}} -- Agregar mas
+local amount = math.random(9, 12) -- Sistema de economia
+local Delivery = {{2085.7, -1794, 14.4}, {2085.7, -1794, 14.4}, {2085.7, -1794, 14.4}, {2085.7, -1794, 14.4}}
+local getJobPickup = createPickup(2100, -1804, 13.55, 3, 1239)
 
-local startJobData = setElementData(localPlayer, "start:job", false)
-trueGUI = true
-local amount = math.random(9, 12)
-local stone = {
-    ['job'] = {w * 619, h * 136, w * 149, h * 216},
-    ['image'] = {w * 649, h * 146, w * 89, h * 92},
-    ['rectangle'] = {w * 629, h * 310, w * 129, h * 32},
-    ['text_start'] = {w * 630, h * 310, w * 758, h * 342},
-    ['text_job'] = {w * 633, h * 248, w * 738, h * 293},
-    ['vehicle'] = {2098, -1825.7, 13.5}
-}
-
-local Delivery = {{2755, -1302.4, 53}, {2436.5, -1303.3, 24.9}, {2508.3, -1999.99, 13.54}, {2241.8, -1882.65, 14.23},
-                  {1762.3, -2103.57, 13.85}, {128.97, -1098.96, 25.92}}
-
-function isMouseInPosition(x, y, width, height)
-    if (not isCursorShowing()) then
-        return false
-    end
-    local sx, sy = guiGetScreenSize()
-    local cx, cy = getCursorPosition()
-    local cx, cy = (cx * sx), (cy * sy)
-
-    return ((cx >= x and cx <= x + width) and (cy >= y and cy <= y + height))
+local guiOpen
+local toggle = false;
+-- Tomar trabajo draw
+function isPedDrivingVehicle(ped)
+    assert(isElement(ped) and (getElementType(ped) == "ped" or getElementType(ped) == "player"),
+        "Bad argument @ isPedDrivingVehicle [ped/player expected, got " .. tostring(ped) .. "]")
+    local isDriving = isPedInVehicle(ped) and getVehicleOccupant(getPedOccupiedVehicle(ped)) == ped
+    return isDriving, isDriving and getPedOccupiedVehicle(ped) or nil
 end
 
-local guiOpen = createMarker(2103.73, -1824.77, 13, "cylinder", 1.3, 188, 188, 188, 144)
+function dxDrawTextOnElement(TheElement, text, height, distance, R, G, B, alpha, size, font, ...)
+    local x, y, z = getElementPosition(TheElement)
+    local x2, y2, z2 = getCameraMatrix()
+    local distance = distance or 20
+    local height = height or 1
+
+    if (isLineOfSightClear(x, y, z + 2, x2, y2, z2, ...)) then
+        local sx, sy = getScreenFromWorldPosition(x, y, z + height)
+        if (sx) and (sy) then
+            local distanceBetweenPoints = getDistanceBetweenPoints3D(x, y, z, x2, y2, z2)
+            if (distanceBetweenPoints < distance) then
+                dxDrawText(text, sx + 2, sy + 2, sx, sy, tocolor(R or 255, G or 255, B or 255, alpha or 255),
+                    (size or 1) - (distanceBetweenPoints / distance), font or "arial", "center", "center")
+            end
+        end
+    end
+end
+
+addEventHandler("onClientRender", getRootElement(), function()
+    dxDrawTextOnElement(getJobPickup, "Utilice /tomartrabajo para comenzar a trabajar de repartidor", 0.5, 20, 252, 236,
+        3, 255, 2, "arial")
+end)
+--
+
+function spawnYes(button, state)
+    if button == 'left' and state == 'up' then
+        if isElementWithinMarker(localPlayer, guiOpen) then
+            showCursor(false)
+            setElementData(localPlayer, "start:job", true)
+            if getElementData(localPlayer, "start:job") == false then
+                outputChatBox("Nunca cambia", 255, 255, 255)
+            end
+            outputChatBox("$You have decide person job, your skin has been set. In 3 seconds!", 255, 255, 255)
+            triggerServerEvent("warpPedIntoVehicle", resourceRoot)
+            outputChatBox("$You are service on the stack pizza san andreas go point to delivery!", 255, 255, 255)
+            showMarker()
+            destroyElement(window)
+            showCursor(false)
+        end
+    end
+end
+
+function spawnNo(button, state)
+    if button == "left" and state == "up" then
+        destroyElement(window)
+        showCursor(false)
+    end
+end
 
 function renderJob()
     if not isElementWithinMarker(localPlayer, guiOpen) then
         return
     end
-    if not isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == true then
-        return
+    if isPedInVehicle(localPlayer) then
+        return outputChatBox("Debe estar fuera del vehiculo!")
+
     end
-    if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false then
-        if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false and trueGUI == true then
-            showCursor(true)
-            dxDrawRectangle(stone['job'][1], stone['job'][2], stone['job'][3], stone['job'][4],
-                tocolor(34, 27, 38, 255), false)
-            dxDrawImage(stone['image'][1], stone['image'][2], stone['image'][3], stone['image'][4],
-                ":job_pizza/gui.png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
-            dxDrawRectangle(stone['rectangle'][1], stone['rectangle'][2], stone['rectangle'][3], stone['rectangle'][4],
-                tocolor(229, 223, 232, 144), false)
-            dxDrawText("START", stone['text_start'][1], stone['text_start'][2], stone['text_start'][3],
-                stone['text_start'][4], tocolor(255, 255, 255, 255), 1.00, "bankgothic", "center", "top", false, false,
-                false, false, false)
-            dxDrawText("Job: Pizza Boy\nAmount: 9,12$\nGPS: San Andreasn\nK: ShowGUI", stone['text_job'][1],
-                stone['text_job'][2], stone['text_job'][3], stone['text_job'][4], tocolor(255, 255, 255, 255), 1.00,
-                "default", "left", "top", false, false, false, false, false)
-        end
+    if isElementWithinMarker(localPlayer, guiOpen) and getElementData(localPlayer, "start:job") == true then
+        return outputChatBox("Ya estas en una entrega!")
     end
+    -- if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false then
+    if isElementWithinMarker(localPlayer, guiOpen) then
+        local screenW, screenH = guiGetScreenSize()
+        window = guiCreateWindow((screenW - 312) / 2, (screenH - 104) / 2, 312, 104, "Empezar viaje?", false)
+        guiWindowSetSizable(window, false)
+        showCursor(true)
+
+        Yes_btn = guiCreateButton(56, 64, 89, 30, "Yes", false, window)
+        No_btn = guiCreateButton(168, 65, 89, 29, "No", false, window)
+
+        addEventHandler("onClientGUIClick", Yes_btn, spawnYes)
+        addEventHandler("onClientGUIClick", No_btn, spawnNo)
+
+    end
+    outputChatBox("sale")
 end
 
 function showMarker()
@@ -69,51 +100,74 @@ function showMarker()
     addEventHandler("onClientMarkerHit", Marker, randomizeExit)
 end
 
-function randomizeExit()
-    if getElementData(localPlayer, "start:job") == false then
-        return
-    end
-    if isElement(Marker) and Marker then
-        destroyElement(Marker)
-        destroyElement(blip)
-        Marker = nil
-        blip = nil
-        setElementData(localPlayer, "start:job", false)
-        outputChatBox("You are earned for your delivery: " .. amount .. " $")
-        triggerServerEvent("TakeMoneyCare", resourceRoot)
+function randomizeExit(hitPlayer)
+    outputChatBox("randomizeExit")
+    if source == Marker and hitPlayer == localPlayer then
+        if getElementData(localPlayer, "start:job") == false then
+            return outputChatBox("no tenes ninguna entrega")
+        end
+        if isElement(Marker) and Marker then
+            destroyElement(Marker)
+            destroyElement(blip)
+
+            Marker = createMarker(2122.9, -1785.4, 13.38, "checkpoint", 1.8, 255, 255, 255)
+            blip = createBlipAttachedTo(Marker, 12)
+            addEventHandler("onClientMarkerHit", Marker, backToBase)
+        end
     end
 end
 
-function addGuiMember()
-    if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false then
-        addEventHandler("onClientRender", root, renderJob)
+function backToBase(hitPlayer)
+    if source == Marker and hitPlayer == localPlayer then
+        if isElement(Marker) and Marker then
+            destroyElement(Marker)
+            destroyElement(blip)
+            setElementData(localPlayer, "start:job", false)
+            outputChatBox("You are earned for your delivery: " .. amount .. " $")
+            triggerServerEvent("TakeMoneyCare", localPlayer)
+        end
     end
+end
+
+-- addEventHandler("onClientMarkerHit", guiOpen, renderJob)
+
+function tomarTrabajo(cmd, args)
+    local theShape = getElementColShape(getJobPickup)
+    if not isElementWithinColShape(localPlayer, theShape) then
+        return outputChatBox("Debe estar sobre el marcador!")
+    end
+    if getPlayerTeam(localPlayer) then
+        return outputChatBox("Usted ya tiene un trabajo!")
+    end
+    triggerServerEvent("setPizzaTeam", localPlayer)
     setElementData(localPlayer, "start:job", false)
+    toggle = true
+    guiOpen = createMarker(2103.73, -1824.77, 12.5, "cylinder", 2, 188, 188, 188, 144)
+    addEventHandler("onClientMarkerHit", guiOpen, renderJob)
+
 end
-addEventHandler("onClientResourceStart", resourceRoot, addGuiMember)
 
-addEventHandler("onClientClick", root, function(button, bind)
-    if button == "left" and bind == "down" and isMouseInPosition(w * 633, h * 248, w * 738, h * 293) then
-        if not isElementWithinMarker(localPlayer, guiOpen) then
-            return
-        end
-        if not isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == true then
-            return
-        end
-        if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false then
-            if isElementWithinMarker(localPlayer, guiOpen) and getElementData("start:job") == false and trueGUI == true then
-                showCursor(false)
-                setElementData(localPlayer, "start:job", true)
-                outputChatBox("$You have decide person job, your skin has been set. In 3 seconds!", 255, 255, 255)
-                triggerServerEvent("warpPedIntoVehicle", resourceRoot)
-                outputChatBox("$You are service on the stack pizza san andreas go point to delivery!", 255, 255, 255)
-                showMarker()
-            end
-        end
-    end
-end)
+function renunciar(cmd, args)
+    triggerServerEvent("unsetPizzaTeam", resourceRoot)
+    guiOpen = nil
+    removeEventHandler("onClientMarkerHit", guiOpen, renderJob)
+end
 
-bindKey("K", "down", function()
-    trueGUI = not trueGUI
-    showCursor(false)
-end)
+addCommandHandler("tomartrabajo", tomarTrabajo)
+addCommandHandler("renunciar", renunciar)
+
+function toggleMarker()
+    return createMarker(2103.73, -1824.77, 12.5, "cylinder", 2, 188, 188, 188, 144)
+end
+
+-- Para otros trabajos:
+-- function init --> Inicializa marcadores, iconos, posiciones
+
+-- SOLUCIONAR BUG: AL HACER CLICK EN CUALQUIER PARTE DEL A WINDOW ACEPTA EL VIAJE
+
+-- INFO
+-- tomartrabajo
+-- chequear si ya tiene trabajo
+-- chequear si esta sobre el icono
+-- renunciar
+-- chequear que tiene tabajo

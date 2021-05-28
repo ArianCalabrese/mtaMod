@@ -1,0 +1,7 @@
+txd_estokada = engineLoadTXD ( "objectos/estokada.txd" )
+engineImportTXD ( txd_estokada, 1580 )
+col_estokada = engineLoadCOL ( "objectos/estokada.col" )
+engineReplaceCOL ( col_estokada, 1580 )
+dff_estokada = engineLoadDFF ( "objectos/estokada.dff", 0 )
+engineReplaceModel ( dff_estokada,1580 )
+engineSetModelLODDistance(1580, 500)
