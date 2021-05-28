@@ -1,0 +1,6 @@
+<meta>
+<info name="pizzaBoy" author="Jakub" type="script" version="1.0.0" />
+<script src="c_side.lua" type="client" cache="true" />
+<script src="s_side.lua" type="server" cache="true" />
+<file src="gui.png" />
+</meta>

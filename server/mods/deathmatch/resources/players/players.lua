@@ -16,11 +16,11 @@ addCommandHandler('clearchat', function(player)
 end, false, false)
 
 addEventHandler('onPlayerJoin', root, function()
-    --NAME CONTROL
-        --HasNumber
-        --Name_Format (check if _ exist)
-        --Invalid characters ($,%,#)
-        
+    -- NAME CONTROL
+    -- HasNumber
+    -- Name_Format (check if _ exist)
+    -- Invalid characters ($,%,#)
+
     -- local playerName = getPlayerName(source)
     -- if string.match(playerName, "%d+") then
     --     kickPlayer(source, nil, "Su nombre contiene numeros. Corrija esto y vuelva a ingresar")
@@ -29,7 +29,9 @@ addEventHandler('onPlayerJoin', root, function()
     triggerClientEvent(source, 'login-menu:open', source)
 end)
 addEventHandler("onPlayerWasted", getRootElement(), function()
-    setTimer(spawnPlayer, 2000, 1, source, 2745.5830078125, -1608.7109375, 20)
+    local acc = getPlayerAccount(source)
+    local skin = getAccountData(acc, "skin")
+    setTimer(spawnPlayer, 2000, 1, source, 1182.62, -1324.36, 13.9, 0, skin)
 end)
 addEventHandler("onPlayerQuit", root, function()
     -- local db = exports.userDB:getUserConnection()
@@ -58,22 +60,3 @@ addEventHandler("onPlayerQuit", root, function()
     -- dbExec(db, "UPDATE accounts SET x = ?, y = ?, z = ?, rx = ?, ry = ?, rz = ? WHERE id = ?", x, y, z, rx, ry, rz,
     --     getAccountData(account, "userid"))
 end)
-
--- acentos feature
-function acentos(player)
-    setCameraMatrix(2366, -1055, 155, 0, 0, 20)
-    fadeCamera(true)
-    showCursor(true, true)
-    guiSetInputMode('no_binds')
-    local x, y, width, height = getWindowPosition(400, 230)
-    window = guiCreateWindow(x, y, width, height, 'Complete los datos de su personaje', false)
-    guiWindowSetMovable(window, false)
-    guiWindowSetSizable(window, false)
-    local usernameLabel = guiCreateLabel(10, 30, width - 30, 20, 'Username:', false, window)
-    local usernameErrorLabel = guiCreateLabel(75, 30, width - 90, 20, 'Username is required.', false, window)
-    guiLabelSetColor(usernameErrorLabel, 255, 100, 100)
-    guiSetVisible(usernameErrorLabel, false)
-end
-
-addCommandHandler("acentos", acentos, false, false)
-

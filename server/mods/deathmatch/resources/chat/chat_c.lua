@@ -143,16 +143,28 @@ function acento(player, cmd, acento)
         ["argentino"] = "argentino",
         ["colombiano"] = "colombiano",
         ["ruso"] = "ruso",
-        ["ingles"] = "ingles",
-        ["estadounidense"] = "estadounidense"
+        ["britanico"] = "britanico",
+        ["estadounidense"] = "estadounidense",
+        ["chileno"] = "chileno",
+        ["portugues"] = "portugues",
+        ["japones"] = "japones",
+        ["chino"] = "chino",
+        ["italiano"] = "italiano",
+        ["aleman"] = "aleman",
+        ["mexicano"] = "mexicano",
+        ["cubano"] = "cubano",
+        ["venezolano"] = "venezolano"
     }
     if not acento then
         return outputChatBox("SYNTAX: Usar /" .. cmd .. " [acento] para usar un acento. Utilice /" .. cmd ..
                                  " lista para ver todos los acentos disponibles", player, 255, 255, 255, false)
     end
     if acento == "lista" then
-        return outputChatBox("Acentos disponibles: \n Argentino, Colombiano, Ruso, Ingles, Estadounidense", player, 255,
-                   255, 255, false)
+        local acentoString = ""
+        for key, value in pairs(acentos) do
+            acentoString = acentoString .. ", " .. value
+        end
+        return outputChatBox("Acentos disponibles: " .. acentoString, player, 255, 255, 255, false)
     end
     if not acentos[string.lower(acento)] then
         return outputChatBox("Error! El acento introducido no esta disponible. Pruebe utilizando /" .. cmd ..
@@ -163,3 +175,4 @@ function acento(player, cmd, acento)
     return outputChatBox("Acento actualizado con exito!", player, 100, 255, 100, false)
 end
 addCommandHandler("acento", acento)
+addCommandHandler("acentos", acento)

@@ -1,11 +1,11 @@
+# misc
 **/*.log
 server/mods/deathmatch/logs/server.log
 server/mods/deathmatch/logs/server_auth.log
 server/mods/deathmatch/databases/system/stats.db
 **/*.db
 *.ddl
-# misc
-dumps/
-backups/
-logs/
+**/dumps/
+**/backups/
+**/logs/
 **/resource-cache/

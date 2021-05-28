@@ -1,0 +1,25 @@
+<meta>
+    <file src="objectos/estokada.col" />
+    <file src="objectos/estokada.txd" />
+    <file src="objectos/estokada.dff" />
+    <script src="main.lua" type="client" />
+    <script src="elevador/eleva_c.luac" type="client" />
+    <script src="elevador/eleva_s.luac" type="server" />
+    <script src="Teleport.lua" type="server" />
+    <oop>true</oop>
+    <info type="map" version="1.0.0"></info>
+    <map src="MecanicoNazi.map" dimension="0"></map>
+    <settings>
+        <setting name="#maxplayers" value="[ 128 ]"></setting>
+        <setting name="#useLODs" value="[ false ]"></setting>
+        <setting name="#gamespeed" value="[ 1 ]"></setting>
+        <setting name="#minplayers" value="[ 0 ]"></setting>
+        <setting name="#gravity" value="[ 0.008 ]"></setting>
+        <setting name="#waveheight" value="[ 0 ]"></setting>
+        <setting name="#locked_time" value="[ false ]"></setting>
+        <setting name="#weather" value="[ 0 ]"></setting>
+        <setting name="#time" value="12:0"></setting>
+    </settings>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+    <info author='Nidza a.k.a CodeMaster' version='1.5.0' name='Vehicle Fuel Script BETA' type='script' />
+    <script src='cvehiclefuel.lua' type='server' />
+	<script src='cvehiclefuel_c.lua' type='client' />
+    <map src='markers.map' />
+</meta>

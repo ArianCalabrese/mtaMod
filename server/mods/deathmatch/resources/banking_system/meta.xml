@@ -1,0 +1,13 @@
+<meta>
+	<info author="Remaked" type="script" version="1.0"></info>
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+	<export function="getPlayerPIN" type="server" />
+	<export function="getAccountPIN" type="server" />
+	<export function="setAccountPIN" type="server" />
+	<exprot function="setPlayerPIN" type="server" />
+	<export function="getPlayerBankCash" type="server" />
+	<export function="getAccountBankCash" type="server" />
+	<export function="setPlayerBankCash" type="server" />
+	<export function="setAccountBankCash" type="server" />
+</meta>
